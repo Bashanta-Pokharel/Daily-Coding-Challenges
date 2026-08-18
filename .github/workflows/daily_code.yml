@@ -2,35 +2,36 @@ name: Daily Code Practice Automation
 
 on:
   schedule:
-    # Runs at 00:00 UTC every day
+    # Runs every day at 00:00 UTC (can be triggered up to 2-3 times or runs in 2-3 distinct commits)
     - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
   generate-daily-code:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Run Daily Code Generator
+      - name: Configure Git Author
+        run: |
+          git config --global user.name "Daily Code Bot"
+          git config --global user.email "bot@dailycode.local"
+
+      - name: Run Daily Code Generator (Creates 2-3 separate commits)
         run: |
           chmod +x ./scripts/daily_code_generator.py
           python3 ./scripts/daily_code_generator.py
 
-      - name: Commit and push changes
+      - name: Push All Daily Commits
         run: |
-          git config --global user.name "Daily Code Bot"
-          git config --global user.email "bot@dailycode.local"
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "feat(daily-code): add 2 daily coding exercises [skip ci]"
-            git push
-          fi
+          git push origin main
