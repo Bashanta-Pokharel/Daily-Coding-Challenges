@@ -1,13 +1,13 @@
-name: Daily Code Practice Automation
+name: Randomized Daily Code & Multi-Commit Practice
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC (can be triggered up to 2-3 times or runs in 2-3 distinct commits)
-    - cron: '0 0 * * *'
+    # Triggers daily between 11:00 PM and 1:00 AM local time (17:15 - 19:15 UTC)
+    - cron: '15 17 * * *'
   workflow_dispatch:
 
 jobs:
-  generate-daily-code:
+  daily-practice:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,6 +16,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Randomized Time Delay (11:00 PM - 1:00 AM Window)
+        run: |
+          # Introduce random sleep delay (between 0 and 90 minutes) for realistic natural timing
+          RANDOM_DELAY=$((RANDOM % 5400))
+          echo "Sleeping for $RANDOM_DELAY seconds to randomize commit timestamp..."
+          sleep $RANDOM_DELAY
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,7 +34,7 @@ jobs:
           git config --global user.name "Daily Code Bot"
           git config --global user.email "bot@dailycode.local"
 
-      - name: Run Daily Code Generator (Creates 2-3 separate commits)
+      - name: Run Multi-Code & Multi-Commit Generator
         run: |
           chmod +x ./scripts/daily_code_generator.py
           python3 ./scripts/daily_code_generator.py
