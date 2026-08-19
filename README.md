@@ -26,3 +26,4 @@ An automated multi-language algorithmic repository that solves **2 new problems 
 
 | Date | Language | Topic | Solutions |
 | :--- | :--- | :--- | :--- |
+| **2026-08-19 (Day 2)** | `JavaScript` | Conditionals and Pattern Matching (4 problems) | [`day02_problem01_conditionals_and_pattern_matching.js`](javascript/day02_problem01_conditionals_and_pattern_matching.js), [`day02_problem02_conditionals_and_pattern_matching.js`](javascript/day02_problem02_conditionals_and_pattern_matching.js), [`day02_problem03_conditionals_and_pattern_matching.js`](javascript/day02_problem03_conditionals_and_pattern_matching.js), [`day02_problem04_conditionals_and_pattern_matching.js`](javascript/day02_problem04_conditionals_and_pattern_matching.js) |

@@ -1,6 +1,6 @@
 {
-  "current_day": 2,
-  "lang_index": 1,
+  "current_day": 3,
+  "lang_index": 2,
   "history": [
     {
       "date": "2026-08-18",
@@ -9,6 +9,18 @@
       "files": [
         "day01_01_hello_variables.py",
         "day01_02_basic_calculator.py"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "day": 2,
+      "language": "javascript",
+      "problems_count": 4,
+      "files": [
+        "day02_problem01_conditionals_and_pattern_matching.js",
+        "day02_problem02_conditionals_and_pattern_matching.js",
+        "day02_problem03_conditionals_and_pattern_matching.js",
+        "day02_problem04_conditionals_and_pattern_matching.js"
       ]
     }
   ]
