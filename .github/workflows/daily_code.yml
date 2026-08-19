@@ -2,8 +2,8 @@ name: Randomized Daily Code & Multi-Commit Practice
 
 on:
   schedule:
-    # Triggers daily at 11:00 PM local time (17:15 UTC)
-    - cron: '15 17 * * *'
+    # Triggers daily starting at 8:00 PM local time (14:15 UTC)
+    - cron: '15 14 * * *'
   workflow_dispatch:
 
 jobs:
@@ -17,11 +17,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Randomized Time Delay (11:00 PM - 11:59 PM Window)
+      - name: Randomized Time Delay (8:00 PM - 11:59 PM Window)
         run: |
-          # Random sleep between 0 and 55 minutes (0 to 3300 seconds)
-          RANDOM_DELAY=$((RANDOM % 3300))
-          echo "Sleeping for $RANDOM_DELAY seconds so commit happens randomly between 11:00 PM and 11:59 PM..."
+          # Random sleep delay between 0 and 3 hours 50 minutes (0 to 13800 seconds)
+          RANDOM_DELAY=$((RANDOM % 13800))
+          MINUTES=$((RANDOM_DELAY / 60))
+          echo "Sleeping for $RANDOM_DELAY seconds ($MINUTES minutes) so commit happens randomly between 8:00 PM and 11:59 PM..."
           sleep $RANDOM_DELAY
 
       - name: Set up Python
