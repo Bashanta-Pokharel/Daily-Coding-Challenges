@@ -4,4 +4,12 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Initial starter interface for Problem 3
+function solveProblem3(inputArray) {
+  console.log(`Executing Day 2 Problem 3 ($JavaScript): Conditionals and Pattern Matching`);
+  const filtered = inputArray.filter(n => n % 2 === 0).map(n => n * 3);
+  const sum = filtered.reduce((acc, curr) => acc + curr, 0);
+  return { day: 2, problem: 3, items: filtered, total: sum };
+}
+
+const sampleData = [12, 25, 34, 48, 55, 60];
+console.log("Solution Output:", solveProblem3(sampleData));
