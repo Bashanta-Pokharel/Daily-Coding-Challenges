@@ -3,8 +3,8 @@
 Automated Multi-Language Daily Code Generator
 Features:
 - Generates between 3 to 4 codes daily (>2 and <5)
-- Produces between 4 to 8 commits daily (>3 and <10)
-- Supports random jitter / execution timing
+- Produces between 4 to 9 commits daily (>3 and <10)
+- Executes randomly between 11:00 PM and 11:59 PM
 - Rotates across all 22 major market programming languages
 """
 
@@ -48,26 +48,26 @@ LANGUAGE_CONFIG = {
 LANGUAGES = list(LANGUAGE_CONFIG.keys())
 
 TOPICS = [
-    ("Variables, Types & Memory Models", "fundamentals"),
-    ("Conditionals & Pattern Matching", "control_flow"),
-    ("Loops & Iterative Algorithms", "loops"),
-    ("Functions, Closures & Lambdas", "functions"),
-    ("Arrays, Slices & Dynamic Buffers", "arrays"),
-    ("String Algorithms & Regex", "strings"),
-    ("Hash Maps & Lookup Tables", "hashmaps"),
-    ("Object-Oriented & Structural Design", "oop"),
-    ("Recursion & Divide-and-Conquer", "recursion"),
-    ("Binary Search & Sliding Windows", "search"),
-    ("Sorting Algorithms & Heuristics", "sorting"),
-    ("Stacks & Queues Data Structures", "stacks_queues"),
-    ("Linked Lists & Pointer Graphs", "linked_lists"),
-    ("Binary Trees & Tree Traversals", "trees"),
-    ("Graph Algorithms (BFS/DFS)", "graphs"),
-    ("Dynamic Programming & Memoization", "dp"),
-    ("Bitwise Manipulation & Masking", "bitwise"),
-    ("Concurrency & Async Pipelines", "concurrency"),
-    ("File I/O & JSON Serialization", "io_parsing"),
-    ("Error Handling & Result Enums", "error_handling")
+    ("Variables, Types and Memory Models", "fundamentals"),
+    ("Conditionals and Pattern Matching", "control_flow"),
+    ("Loops and Iterative Algorithms", "loops"),
+    ("Functions, Closures and Lambdas", "functions"),
+    ("Arrays, Slices and Dynamic Buffers", "arrays"),
+    ("String Algorithms and Parsing", "strings"),
+    ("Hash Maps and Lookup Tables", "hashmaps"),
+    ("Object-Oriented and Structural Design", "oop"),
+    ("Recursion and Divide-and-Conquer", "recursion"),
+    ("Binary Search and Sliding Windows", "search"),
+    ("Sorting Algorithms and Heuristics", "sorting"),
+    ("Stacks and Queues Data Structures", "stacks_queues"),
+    ("Linked Lists and Pointer Graphs", "linked_lists"),
+    ("Binary Trees and Tree Traversals", "trees"),
+    ("Graph Algorithms BFS and DFS", "graphs"),
+    ("Dynamic Programming and Memoization", "dp"),
+    ("Bitwise Manipulation and Masking", "bitwise"),
+    ("Concurrency and Async Pipelines", "concurrency"),
+    ("File IO and Data Serialization", "io_parsing"),
+    ("Error Handling and Result Enums", "error_handling")
 ]
 
 def load_state():
@@ -91,7 +91,6 @@ def run_git(args):
         print(f"Git command notice: {e}")
 
 def generate_code_content(lang: str, day: int, problem_num: int, topic: str) -> tuple[str, str, str]:
-    """Generates (filename, initial_skeleton, final_solution)."""
     cfg = LANGUAGE_CONFIG[lang]
     ext = cfg["ext"]
     disp = cfg["display"]
@@ -104,146 +103,147 @@ def generate_code_content(lang: str, day: int, problem_num: int, topic: str) -> 
         classname = f"Day{day:02d}_Problem{problem_num:02d}_{clean_topic}"
         filename = f"{classname}.java"
 
-    header = f"""{cmt} ==============================================================================
-{cmt} Day {day:02d} - Problem {problem_num:02d}: {topic}
-{cmt} Language: {disp}
-{cmt} Daily Coding Practice & Algorithmic Problem Solving
-{cmt} ==============================================================================
-"""
+    header = (
+        f"{cmt} ==============================================================================\n"
+        f"{cmt} Day {day:02d} - Problem {problem_num:02d}: {topic}\n"
+        f"{cmt} Language: {disp}\n"
+        f"{cmt} Daily Coding Practice & Algorithmic Problem Solving\n"
+        f"{cmt} ==============================================================================\n"
+    )
 
-    skeleton = f"""{header}
-{cmt} Initial starter interface for Problem {problem_num}
-"""
+    skeleton = (
+        f"{header}\n"
+        f"{cmt} Initial starter interface for Problem {problem_num}\n"
+    )
 
     if lang == "python":
-        solution = f"""{header}
-def solve_problem_{problem_num}(values: list[int]) -> dict:
-    \"\"\"Solves Day {day} challenge #{problem_num} for {topic}.\"\"\"
-    processed = [x * {problem_num} for x in values if x % 2 == 0]
-    total = sum(processed)
-    avg = total / len(processed) if processed else 0
-    return {{"day": {day}, "problem": {problem_num}, "count": len(processed), "sum": total, "avg": avg}}
-
-if __name__ == "__main__":
-    test_data = [10, 15, 22, 34, 45, 56, 68]
-    result = solve_problem_{problem_num}(test_data)
-    print(f"[{disp} - Day {day} Problem {problem_num}] Result: {{result}}")
-"""
+        solution = (
+            f"{header}\n"
+            f"def solve_problem_{problem_num}(values: list[int]) -> dict:\n"
+            f'    """Solves Day {day} challenge #{problem_num} for {topic}."""\n'
+            f"    processed = [x * {problem_num} for x in values if x % 2 == 0]\n"
+            f"    total = sum(processed)\n"
+            f"    avg = total / len(processed) if processed else 0\n"
+            f'    return {{"day": {day}, "problem": {problem_num}, "count": len(processed), "sum": total, "avg": avg}}\n\n'
+            f'if __name__ == "__main__":\n'
+            f"    test_data = [10, 15, 22, 34, 45, 56, 68]\n"
+            f"    result = solve_problem_{problem_num}(test_data)\n"
+            f'    print(f"[{disp} - Day {day} Problem {problem_num}] Result: {{result}}")\n'
+        )
 
     elif lang in ("javascript", "typescript"):
-        solution = f"""{header}
-function solveProblem{problem_num}(inputArray) {{
-  console.log(`Executing Day {day} Problem {problem_num} (${disp}): {topic}`);
-  const filtered = inputArray.filter(n => n % 2 === 0).map(n => n * {problem_num});
-  const sum = filtered.reduce((acc, curr) => acc + curr, 0);
-  return {{ day: {day}, problem: {problem_num}, items: filtered, total: sum }};
-}}
-
-const sampleData = [12, 25, 34, 48, 55, 60];
-console.log("Solution Output:", solveProblem{problem_num}(sampleData));
-"""
+        solution = (
+            f"{header}\n"
+            f"function solveProblem{problem_num}(inputArray) {{\n"
+            f"  console.log(`Executing Day {day} Problem {problem_num} (${disp}): {topic}`);\n"
+            f"  const filtered = inputArray.filter(n => n % 2 === 0).map(n => n * {problem_num});\n"
+            f"  const sum = filtered.reduce((acc, curr) => acc + curr, 0);\n"
+            f"  return {{ day: {day}, problem: {problem_num}, items: filtered, total: sum }};\n"
+            f"}}\n\n"
+            f"const sampleData = [12, 25, 34, 48, 55, 60];\n"
+            f'console.log("Solution Output:", solveProblem{problem_num}(sampleData));\n'
+        )
 
     elif lang == "c":
-        solution = f"""{header}
-#include <stdio.h>
-
-void solveProblem{problem_num}(int arr[], int size) {{
-    printf("--- Day %d Problem %d ({disp}): %s ---\\n", {day}, {problem_num}, "{topic}");
-    int sum = 0;
-    for(int i = 0; i < size; i++) {{
-        if(arr[i] % 2 == 0) {{
-            sum += arr[i] * {problem_num};
-        }}
-    }}
-    printf("Computed Result Sum: %d\\n", sum);
-}}
-
-int main(void) {{
-    int dataset[] = {{10, 21, 32, 43, 54, 65}};
-    solveProblem{problem_num}(dataset, sizeof(dataset)/sizeof(dataset[0]));
-    return 0;
-}}
-"""
+        solution = (
+            f"{header}\n"
+            f"#include <stdio.h>\n\n"
+            f"void solveProblem{problem_num}(int arr[], int size) {{\n"
+            f'    printf("--- Day %d Problem %d ({disp}): %s ---\\n", {day}, {problem_num}, "{topic}");\n'
+            f"    int sum = 0;\n"
+            f"    for(int i = 0; i < size; i++) {{\n"
+            f"        if(arr[i] % 2 == 0) {{\n"
+            f"            sum += arr[i] * {problem_num};\n"
+            f"        }}\n"
+            f"    }}\n"
+            f'    printf("Computed Result Sum: %d\\n", sum);\n'
+            f"}}\n\n"
+            f"int main(void) {{\n"
+            f"    int dataset[] = {{10, 21, 32, 43, 54, 65}};\n"
+            f"    solveProblem{problem_num}(dataset, sizeof(dataset)/sizeof(dataset[0]));\n"
+            f"    return 0;\n"
+            f"}}\n"
+        )
 
     elif lang == "cpp":
-        solution = f"""{header}
-#include <iostream>
-#include <vector>
-#include <numeric>
-#include <algorithm>
-
-int main() {{
-    std::cout << "--- Day {day} Problem {problem_num} ({disp}): {topic} ---\\n";
-    std::vector<int> nums = {{14, 25, 36, 47, 58, 69}};
-    std::vector<int> evens;
-    for(int n : nums) {{
-        if(n % 2 == 0) evens.push_back(n * {problem_num});
-    }}
-    int sum = std::accumulate(evens.begin(), evens.end(), 0);
-    std::cout << "Processed elements: " << evens.size() << " | Sum: " << sum << std::endl;
-    return 0;
-}}
-"""
+        solution = (
+            f"{header}\n"
+            f"#include <iostream>\n"
+            f"#include <vector>\n"
+            f"#include <numeric>\n"
+            f"#include <algorithm>\n\n"
+            f"int main() {{\n"
+            f'    std::cout << "--- Day {day} Problem {problem_num} ({disp}): {topic} ---\\n";\n'
+            f"    std::vector<int> nums = {{14, 25, 36, 47, 58, 69}};\n"
+            f"    std::vector<int> evens;\n"
+            f"    for(int n : nums) {{\n"
+            f"        if(n % 2 == 0) evens.push_back(n * {problem_num});\n"
+            f"    }}\n"
+            f"    int sum = std::accumulate(evens.begin(), evens.end(), 0);\n"
+            f'    std::cout << "Processed elements: " << evens.size() << " | Sum: " << sum << std::endl;\n'
+            f"    return 0;\n"
+            f"}}\n"
+        )
 
     elif lang == "go":
-        solution = f"""{header}
-package main
-
-import "fmt"
-
-func solveProblem{problem_num}(numbers []int) (int, int) {{
-    sum := 0
-    count := 0
-    for _, num := range numbers {{
-        if num%2 == 0 {{
-            sum += num * {problem_num}
-            count++
-        }}
-    }}
-    return count, sum
-}}
-
-func main() {{
-    fmt.Println("--- Day {day} Problem {problem_num} ({disp}): {topic} ---")
-    data := []int{{10, 23, 34, 45, 56, 67}}
-    count, total := solveProblem{problem_num}(data)
-    fmt.Printf("Even Count: %d, Scaled Total: %d\\n", count, total)
-}}
-"""
+        solution = (
+            f"{header}\n"
+            f"package main\n\n"
+            f'import "fmt"\n\n'
+            f"func solveProblem{problem_num}(numbers []int) (int, int) {{\n"
+            f"    sum := 0\n"
+            f"    count := 0\n"
+            f"    for _, num := range numbers {{\n"
+            f"        if num%2 == 0 {{\n"
+            f"            sum += num * {problem_num}\n"
+            f"            count++\n"
+            f"        }}\n"
+            f"    }}\n"
+            f"    return count, sum\n"
+            f"}}\n\n"
+            f"func main() {{\n"
+            f'    fmt.Println("--- Day {day} Problem {problem_num} ({disp}): {topic} ---")\n'
+            f"    data := []int{{10, 23, 34, 45, 56, 67}}\n"
+            f"    count, total := solveProblem{problem_num}(data)\n"
+            f'    fmt.Printf("Even Count: %d, Scaled Total: %d\\n", count, total)\n'
+            f"}}\n"
+        )
 
     elif lang == "java":
-        solution = f"""{header}
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-public class {classname} {{
-    public static void main(String[] args) {{
-        System.out.println("--- Day {day} Problem {problem_num} ({disp}): {topic} ---");
-        List<Integer> numbers = Arrays.asList(12, 23, 34, 45, 56, 67);
-        List<Integer> evens = numbers.stream().filter(n -> n % 2 == 0).map(n -> n * {problem_num}).collect(Collectors.toList());
-        int sum = evens.stream().mapToInt(Integer::intValue).sum();
-        System.out.println("Result List: " + evens + " | Sum: " + sum);
-    }}
-}}
-"""
+        solution = (
+            f"{header}\n"
+            f"import java.util.Arrays;\n"
+            f"import java.util.List;\n"
+            f"import java.util.stream.Collectors;\n\n"
+            f"public class {classname} {{\n"
+            f"    public static void main(String[] args) {{\n"
+            f'        System.out.println("--- Day {day} Problem {problem_num} ({disp}): {topic} ---");\n'
+            f"        List<Integer> numbers = Arrays.asList(12, 23, 34, 45, 56, 67);\n"
+            f"        List<Integer> evens = numbers.stream().filter(n -> n % 2 == 0).map(n -> n * {problem_num}).collect(Collectors.toList());\n"
+            f"        int sum = evens.stream().mapToInt(Integer::intValue).sum();\n"
+            f'        System.out.println("Result List: " + evens + " | Sum: " + sum);\n'
+            f"    }}\n"
+            f"}}\n"
+        )
 
     elif lang == "rust":
-        solution = f"""{header}
-fn main() {{
-    println!("--- Day {} Problem {} ({disp}): {} ---", {day}, {problem_num}, "{topic}");
-    let data = vec![10, 21, 32, 43, 54, 65];
-    let evens: Vec<i32> = data.into_iter().filter(|x| x % 2 == 0).map(|x| x * {problem_num}).collect();
-    let sum: i32 = evens.iter().sum();
-    println!("Evens: {:?}, Sum: {}", evens, sum);
-}}
-"""
+        solution = (
+            f"{header}\n"
+            f"fn main() {{\n"
+            f'    println!("--- Day {{}} Problem {{}} ({disp}): {{}} ---", {day}, {problem_num}, "{topic}");\n'
+            f"    let data = vec![10, 21, 32, 43, 54, 65];\n"
+            f"    let evens: Vec<i32> = data.into_iter().filter(|x| x % 2 == 0).map(|x| x * {problem_num}).collect();\n"
+            f"    let sum: i32 = evens.iter().sum();\n"
+            f'    println!("Evens: {{:?}}, Sum: {{}}", evens, sum);\n'
+            f"}}\n"
+        )
 
     else:
-        solution = f"""{header}
-{cmt} Implementation for Day {day} Problem {problem_num} in {disp}
-{cmt} Topic: {topic}
-"""
+        solution = (
+            f"{header}\n"
+            f"{cmt} Implementation for Day {day} Problem {problem_num} in {disp}\n"
+            f"{cmt} Topic: {topic}\n"
+        )
 
     return filename, skeleton, solution
 
@@ -254,14 +254,14 @@ def generate_today():
     current_day = state.get("current_day", 1)
     lang_index = state.get("lang_index", 0)
 
-    # 1. Random codes count between 3 and 4 (> 2 and < 5)
+    # Random codes count between 3 and 4 (> 2 and < 5)
     num_codes = random.randint(3, 4)
 
-    # 2. Pick language
+    # Pick language
     lang = LANGUAGES[lang_index % len(LANGUAGES)]
     disp = LANGUAGE_CONFIG[lang]["display"]
 
-    # 3. Pick topic
+    # Pick topic
     topic_name = TOPICS[(current_day - 1) % len(TOPICS)][0]
 
     lang_dir = os.path.join(WORKSPACE_DIR, lang)
@@ -269,7 +269,7 @@ def generate_today():
 
     created_files = []
 
-    # 4. Generate each problem and create individual commits (> 3 and < 10 total commits)
+    # Generate each problem and create individual commits (> 3 and < 10 total commits)
     for p_num in range(1, num_codes + 1):
         fname, skeleton, solution = generate_code_content(lang, current_day, p_num, topic_name)
         fpath = os.path.join(lang_dir, fname)
@@ -310,7 +310,7 @@ def generate_today():
         run_git(["add", "README.md", "scripts/.daily_state.json"])
         run_git(["commit", "-m", f"docs: update daily practice log for Day {current_day} ({disp} - {num_codes} problems)"])
 
-    total_commits = num_codes * 2 + 1  # 3 codes -> 7 commits, 4 codes -> 9 commits (between 4 and 9 commits!)
+    total_commits = num_codes * 2 + 1
     print(f"\n✨ Successfully generated {num_codes} codes with {total_commits} commits for Day {current_day} ({disp})!")
 
 if __name__ == "__main__":
