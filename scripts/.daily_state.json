@@ -1,6 +1,6 @@
 {
-  "current_day": 3,
-  "lang_index": 2,
+  "current_day": 4,
+  "lang_index": 3,
   "history": [
     {
       "date": "2026-08-18",
@@ -21,6 +21,18 @@
         "day02_problem02_conditionals_and_pattern_matching.js",
         "day02_problem03_conditionals_and_pattern_matching.js",
         "day02_problem04_conditionals_and_pattern_matching.js"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "day": 3,
+      "language": "typescript",
+      "problems_count": 4,
+      "files": [
+        "day03_problem01_loops_and_iterative_algorithms.ts",
+        "day03_problem02_loops_and_iterative_algorithms.ts",
+        "day03_problem03_loops_and_iterative_algorithms.ts",
+        "day03_problem04_loops_and_iterative_algorithms.ts"
       ]
     }
   ]
