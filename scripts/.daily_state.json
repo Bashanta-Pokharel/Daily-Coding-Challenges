@@ -1,6 +1,6 @@
 {
-  "current_day": 4,
-  "lang_index": 3,
+  "current_day": 5,
+  "lang_index": 4,
   "history": [
     {
       "date": "2026-08-18",
@@ -33,6 +33,18 @@
         "day03_problem02_loops_and_iterative_algorithms.ts",
         "day03_problem03_loops_and_iterative_algorithms.ts",
         "day03_problem04_loops_and_iterative_algorithms.ts"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "day": 4,
+      "language": "c",
+      "problems_count": 4,
+      "files": [
+        "day04_problem01_functions.c",
+        "day04_problem02_functions.c",
+        "day04_problem03_functions.c",
+        "day04_problem04_functions.c"
       ]
     }
   ]
