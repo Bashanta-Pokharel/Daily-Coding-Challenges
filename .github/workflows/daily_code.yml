@@ -2,8 +2,8 @@ name: Randomized Daily Code & Multi-Commit Practice
 
 on:
   schedule:
-    # Triggers daily starting at 8:00 PM local time (14:15 UTC)
-    - cron: '15 14 * * *'
+    # Triggers daily starting at 3:00 PM local time (09:15 UTC)
+    - cron: '15 9 * * *'
   workflow_dispatch:
 
 jobs:
@@ -17,12 +17,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Randomized Time Delay (8:00 PM - 11:59 PM Window)
+      - name: Randomized Time Delay (3:00 PM - 11:00 PM Window)
         run: |
-          # Random sleep delay between 0 and 3 hours 50 minutes (0 to 13800 seconds)
-          RANDOM_DELAY=$((RANDOM % 13800))
+          # Random sleep delay between 0 and 7.5 hours (0 to 27000 seconds)
+          RANDOM_DELAY=$((RANDOM % 27000))
           MINUTES=$((RANDOM_DELAY / 60))
-          echo "Sleeping for $RANDOM_DELAY seconds ($MINUTES minutes) so commit happens randomly between 8:00 PM and 11:59 PM..."
+          echo "Sleeping for $RANDOM_DELAY seconds ($MINUTES minutes) so commit happens randomly between 3:00 PM and 11:00 PM..."
           sleep $RANDOM_DELAY
 
       - name: Set up Python
@@ -30,10 +30,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Configure Git Author
+      - name: Configure Git Author (Matches GitHub Profile for Green Dots)
         run: |
-          git config --global user.name "Daily Code Bot"
-          git config --global user.email "bot@dailycode.local"
+          git config --global user.name "Bashanta-Pokharel"
+          git config --global user.email "pbasanta340@gmail.com"
 
       - name: Run Multi-Code & Multi-Commit Generator
         run: |
