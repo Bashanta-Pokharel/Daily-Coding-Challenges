@@ -1,6 +1,6 @@
 {
-  "current_day": 5,
-  "lang_index": 4,
+  "current_day": 6,
+  "lang_index": 5,
   "history": [
     {
       "date": "2026-08-18",
@@ -45,6 +45,17 @@
         "day04_problem02_functions.c",
         "day04_problem03_functions.c",
         "day04_problem04_functions.c"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "day": 5,
+      "language": "cpp",
+      "problems_count": 3,
+      "files": [
+        "day05_problem01_arrays.cpp",
+        "day05_problem02_arrays.cpp",
+        "day05_problem03_arrays.cpp"
       ]
     }
   ]
