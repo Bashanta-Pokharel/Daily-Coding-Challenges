@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Initial starter interface for Problem 2
+// Implementation for Day 6 Problem 2 in C#
+// Topic: String Algorithms and Parsing
