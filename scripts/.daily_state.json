@@ -1,6 +1,6 @@
 {
-  "current_day": 6,
-  "lang_index": 5,
+  "current_day": 7,
+  "lang_index": 6,
   "history": [
     {
       "date": "2026-08-18",
@@ -56,6 +56,17 @@
         "day05_problem01_arrays.cpp",
         "day05_problem02_arrays.cpp",
         "day05_problem03_arrays.cpp"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "day": 6,
+      "language": "csharp",
+      "problems_count": 3,
+      "files": [
+        "day06_problem01_string_algorithms_and_parsing.cs",
+        "day06_problem02_string_algorithms_and_parsing.cs",
+        "day06_problem03_string_algorithms_and_parsing.cs"
       ]
     }
   ]
