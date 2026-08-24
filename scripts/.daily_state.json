@@ -1,6 +1,6 @@
 {
-  "current_day": 7,
-  "lang_index": 6,
+  "current_day": 8,
+  "lang_index": 7,
   "history": [
     {
       "date": "2026-08-18",
@@ -67,6 +67,17 @@
         "day06_problem01_string_algorithms_and_parsing.cs",
         "day06_problem02_string_algorithms_and_parsing.cs",
         "day06_problem03_string_algorithms_and_parsing.cs"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "day": 7,
+      "language": "java",
+      "problems_count": 3,
+      "files": [
+        "Day07_Problem01_hash_maps_and_lookup_tables.java",
+        "Day07_Problem02_hash_maps_and_lookup_tables.java",
+        "Day07_Problem03_hash_maps_and_lookup_tables.java"
       ]
     }
   ]
