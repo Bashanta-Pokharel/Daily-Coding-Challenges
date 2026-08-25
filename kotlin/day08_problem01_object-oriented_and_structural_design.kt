@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Initial starter interface for Problem 1
+// Implementation for Day 8 Problem 1 in Kotlin
+// Topic: Object-Oriented and Structural Design
