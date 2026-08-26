@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Initial starter interface for Problem 2
+// Implementation for Day 9 Problem 2 in Swift
+// Topic: Recursion and Divide-and-Conquer
