@@ -1,6 +1,6 @@
 {
-  "current_day": 9,
-  "lang_index": 8,
+  "current_day": 10,
+  "lang_index": 9,
   "history": [
     {
       "date": "2026-08-18",
@@ -89,6 +89,17 @@
         "day08_problem01_object-oriented_and_structural_design.kt",
         "day08_problem02_object-oriented_and_structural_design.kt",
         "day08_problem03_object-oriented_and_structural_design.kt"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "day": 9,
+      "language": "swift",
+      "problems_count": 3,
+      "files": [
+        "day09_problem01_recursion_and_divide-and-conquer.swift",
+        "day09_problem02_recursion_and_divide-and-conquer.swift",
+        "day09_problem03_recursion_and_divide-and-conquer.swift"
       ]
     }
   ]
