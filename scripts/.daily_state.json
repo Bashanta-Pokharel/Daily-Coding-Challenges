@@ -1,6 +1,6 @@
 {
-  "current_day": 10,
-  "lang_index": 9,
+  "current_day": 11,
+  "lang_index": 10,
   "history": [
     {
       "date": "2026-08-18",
@@ -100,6 +100,18 @@
         "day09_problem01_recursion_and_divide-and-conquer.swift",
         "day09_problem02_recursion_and_divide-and-conquer.swift",
         "day09_problem03_recursion_and_divide-and-conquer.swift"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "day": 10,
+      "language": "go",
+      "problems_count": 4,
+      "files": [
+        "day10_problem01_binary_search_and_sliding_windows.go",
+        "day10_problem02_binary_search_and_sliding_windows.go",
+        "day10_problem03_binary_search_and_sliding_windows.go",
+        "day10_problem04_binary_search_and_sliding_windows.go"
       ]
     }
   ]
