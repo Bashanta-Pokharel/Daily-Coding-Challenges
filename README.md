@@ -1,6 +1,6 @@
 # 🚀 Daily Coding Challenges (All Market Languages)
 
-An automated multi-language algorithmic repository that solves **2 new problems every single day** with **3 automated commits**, cycling across all major programming languages in the software industry.
+An automated multi-language algorithmic repository that generates daily algorithmic practice problems with **randomly between 11 to 19 automated commits daily** (>10 and <20), cycling across 22 major programming languages.
 
 ---
 
@@ -16,9 +16,9 @@ An automated multi-language algorithmic repository that solves **2 new problems 
 ---
 
 ## 🤖 100% Automated Workflow
-- **Cloud Runner**: Powered by **GitHub Actions** (`.github/workflows/daily_code.yml`).
-- **Commits**: Makes **3 separate commits daily** (Problem 1, Problem 2, Progress Log).
-- **Execution**: Runs every day at **00:00 UTC** completely in the cloud.
+- **Cloud Runner**: Powered by **GitHub Actions** ([`.github/workflows/daily_code.yml`](.github/workflows/daily_code.yml)).
+- **Commits**: Produces **between 11 and 19 granular commits daily** (> 10 and < 20).
+- **Execution Window**: Runs automatically and pushes code at a **randomized time between 1:00 PM and 10:00 PM** (UTC+05:45).
 
 ---
 
