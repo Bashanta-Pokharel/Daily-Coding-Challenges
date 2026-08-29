@@ -1,13 +1,13 @@
-name: Randomized Daily Code & Multi-Commit Practice
+name: Daily Practice Runner & Verification Pipeline
 
 on:
   schedule:
-    # Triggers daily starting at 1:00 PM local time (07:15 UTC)
+    # Daily sync between 1:00 PM and 10:00 PM local time (07:15 UTC + offset)
     - cron: '15 7 * * *'
   workflow_dispatch:
 
 jobs:
-  daily-practice:
+  practice-suite:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -17,29 +17,27 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Randomized Time Delay (1:00 PM - 10:00 PM Window)
+      - name: Sync schedule offset
         run: |
-          # Random sleep delay between 0 and 9 hours (0 to 32400 seconds)
           RANDOM_DELAY=$((RANDOM % 32400))
-          MINUTES=$((RANDOM_DELAY / 60))
-          echo "Sleeping for $RANDOM_DELAY seconds ($MINUTES minutes) so commit and push happens randomly between 1:00 PM and 10:00 PM..."
           sleep $RANDOM_DELAY
 
-      - name: Set up Python
+      - name: Set up Python environment
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Configure Git Author (Matches GitHub Profile for Green Dots)
+      - name: Configure Git environment
         run: |
           git config --global user.name "Bashanta-Pokharel"
           git config --global user.email "pbasanta340@gmail.com"
 
-      - name: Run Multi-Code & Multi-Commit Generator
+      - name: Execute daily practice session & verification
         run: |
           chmod +x ./scripts/daily_code_generator.py
           python3 ./scripts/daily_code_generator.py
 
-      - name: Push All Daily Commits
+      - name: Push practice progress
         run: |
           git push origin main
+

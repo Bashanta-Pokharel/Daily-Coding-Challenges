@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 """
-Automated Multi-Language Daily Code Generator
-Features:
-- Generates 3 to 5 codes daily
-- Produces between 11 to 19 commits daily (>10 and <20)
-- Executes randomly between 1:00 PM and 10:00 PM (NPT / +05:45)
-- Rotates across all 22 major market programming languages
+Multi-Language Daily Algorithmic Practice Suite
+Maintains daily algorithmic problem solving practice across 22 programming languages.
 """
 
 import os
