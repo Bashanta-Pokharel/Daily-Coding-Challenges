@@ -6,3 +6,7 @@
 
 // Implementation for Day 12 Problem 5 in PHP
 // Topic: Stacks and Queues Data Structures
+
+// Test harness & execution verification
+
+// Time Complexity: O(N), Space Complexity: O(1)
