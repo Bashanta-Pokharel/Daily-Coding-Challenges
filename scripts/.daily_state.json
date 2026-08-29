@@ -1,6 +1,6 @@
 {
-  "current_day": 12,
-  "lang_index": 11,
+  "current_day": 13,
+  "lang_index": 12,
   "history": [
     {
       "date": "2026-08-18",
@@ -124,6 +124,19 @@
         "day11_problem02_sorting_algorithms_and_heuristics.rs",
         "day11_problem03_sorting_algorithms_and_heuristics.rs",
         "day11_problem04_sorting_algorithms_and_heuristics.rs"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "day": 12,
+      "language": "php",
+      "problems_count": 5,
+      "files": [
+        "day12_problem01_stacks_and_queues_data_structures.php",
+        "day12_problem02_stacks_and_queues_data_structures.php",
+        "day12_problem03_stacks_and_queues_data_structures.php",
+        "day12_problem04_stacks_and_queues_data_structures.php",
+        "day12_problem05_stacks_and_queues_data_structures.php"
       ]
     }
   ]
