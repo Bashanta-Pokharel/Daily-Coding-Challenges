@@ -1,6 +1,6 @@
 {
-  "current_day": 11,
-  "lang_index": 10,
+  "current_day": 12,
+  "lang_index": 11,
   "history": [
     {
       "date": "2026-08-18",
@@ -112,6 +112,18 @@
         "day10_problem02_binary_search_and_sliding_windows.go",
         "day10_problem03_binary_search_and_sliding_windows.go",
         "day10_problem04_binary_search_and_sliding_windows.go"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "day": 11,
+      "language": "rust",
+      "problems_count": 4,
+      "files": [
+        "day11_problem01_sorting_algorithms_and_heuristics.rs",
+        "day11_problem02_sorting_algorithms_and_heuristics.rs",
+        "day11_problem03_sorting_algorithms_and_heuristics.rs",
+        "day11_problem04_sorting_algorithms_and_heuristics.rs"
       ]
     }
   ]
