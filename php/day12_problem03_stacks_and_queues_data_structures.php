@@ -4,4 +4,9 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 3 Scaffold for PHP
+// Implementation for Day 12 Problem 3 in PHP
+// Topic: Stacks and Queues Data Structures
+
+// Test harness & execution verification
+
+// Time Complexity: O(N), Space Complexity: O(1)
