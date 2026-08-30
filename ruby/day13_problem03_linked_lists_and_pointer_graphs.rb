@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 3 Scaffold for Ruby
+# Implementation for Day 13 Problem 3 in Ruby
+# Topic: Linked Lists and Pointer Graphs
