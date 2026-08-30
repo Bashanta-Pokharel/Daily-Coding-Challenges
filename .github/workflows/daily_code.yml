@@ -2,8 +2,8 @@ name: Daily Practice Runner & Verification Pipeline
 
 on:
   schedule:
-    # Daily sync between 1:00 PM and 10:00 PM local time (07:15 UTC + offset)
-    - cron: '15 7 * * *'
+    # Every day at 7:00 PM Nepal Time (13:15 UTC)
+    - cron: '15 13 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,16 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Sync schedule offset
-        run: |
-          RANDOM_DELAY=$((RANDOM % 32400))
-          sleep $RANDOM_DELAY
 
       - name: Set up Python environment
         uses: actions/setup-python@v5
@@ -37,7 +33,11 @@ jobs:
           chmod +x ./scripts/daily_code_generator.py
           python3 ./scripts/daily_code_generator.py
 
+      - name: Commit practice progress
+        run: |
+          git add .
+          git diff --cached --quiet || git commit -m "Daily coding practice - $(date +'%Y-%m-%d')"
+
       - name: Push practice progress
         run: |
           git push origin main
-
