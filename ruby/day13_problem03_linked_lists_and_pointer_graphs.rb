@@ -6,3 +6,5 @@
 
 # Implementation for Day 13 Problem 3 in Ruby
 # Topic: Linked Lists and Pointer Graphs
+
+# Test harness & execution verification
