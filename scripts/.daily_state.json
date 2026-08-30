@@ -1,6 +1,6 @@
 {
-  "current_day": 13,
-  "lang_index": 12,
+  "current_day": 14,
+  "lang_index": 13,
   "history": [
     {
       "date": "2026-08-18",
@@ -137,6 +137,17 @@
         "day12_problem03_stacks_and_queues_data_structures.php",
         "day12_problem04_stacks_and_queues_data_structures.php",
         "day12_problem05_stacks_and_queues_data_structures.php"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "day": 13,
+      "language": "ruby",
+      "problems_count": 3,
+      "files": [
+        "day13_problem01_linked_lists_and_pointer_graphs.rb",
+        "day13_problem02_linked_lists_and_pointer_graphs.rb",
+        "day13_problem03_linked_lists_and_pointer_graphs.rb"
       ]
     }
   ]
