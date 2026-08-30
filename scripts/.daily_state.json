@@ -1,6 +1,6 @@
 {
-  "current_day": 14,
-  "lang_index": 13,
+  "current_day": 15,
+  "lang_index": 14,
   "history": [
     {
       "date": "2026-08-18",
@@ -148,6 +148,18 @@
         "day13_problem01_linked_lists_and_pointer_graphs.rb",
         "day13_problem02_linked_lists_and_pointer_graphs.rb",
         "day13_problem03_linked_lists_and_pointer_graphs.rb"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "day": 14,
+      "language": "dart",
+      "problems_count": 4,
+      "files": [
+        "day14_problem01_binary_trees_and_tree_traversals.dart",
+        "day14_problem02_binary_trees_and_tree_traversals.dart",
+        "day14_problem03_binary_trees_and_tree_traversals.dart",
+        "day14_problem04_binary_trees_and_tree_traversals.dart"
       ]
     }
   ]
