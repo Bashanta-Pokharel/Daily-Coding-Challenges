@@ -1,6 +1,6 @@
 {
-  "current_day": 15,
-  "lang_index": 14,
+  "current_day": 16,
+  "lang_index": 15,
   "history": [
     {
       "date": "2026-08-18",
@@ -160,6 +160,19 @@
         "day14_problem02_binary_trees_and_tree_traversals.dart",
         "day14_problem03_binary_trees_and_tree_traversals.dart",
         "day14_problem04_binary_trees_and_tree_traversals.dart"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "day": 15,
+      "language": "scala",
+      "problems_count": 5,
+      "files": [
+        "day15_problem01_graph_algorithms_bfs_and_dfs.scala",
+        "day15_problem02_graph_algorithms_bfs_and_dfs.scala",
+        "day15_problem03_graph_algorithms_bfs_and_dfs.scala",
+        "day15_problem04_graph_algorithms_bfs_and_dfs.scala",
+        "day15_problem05_graph_algorithms_bfs_and_dfs.scala"
       ]
     }
   ]
