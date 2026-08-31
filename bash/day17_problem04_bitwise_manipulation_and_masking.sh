@@ -6,3 +6,5 @@
 
 # Implementation for Day 17 Problem 4 in Bash
 # Topic: Bitwise Manipulation and Masking
+
+# Test harness & execution verification
