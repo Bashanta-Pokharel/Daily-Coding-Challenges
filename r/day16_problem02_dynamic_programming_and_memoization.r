@@ -6,3 +6,7 @@
 
 # Implementation for Day 16 Problem 2 in R
 # Topic: Dynamic Programming and Memoization
+
+# Test harness & execution verification
+
+# Time Complexity: O(N), Space Complexity: O(1)
