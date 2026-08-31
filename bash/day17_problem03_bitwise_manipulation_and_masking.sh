@@ -4,4 +4,9 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 3 Scaffold for Bash
+# Implementation for Day 17 Problem 3 in Bash
+# Topic: Bitwise Manipulation and Masking
+
+# Test harness & execution verification
+
+# Time Complexity: O(N), Space Complexity: O(1)
