@@ -6,3 +6,5 @@
 
 # Implementation for Day 16 Problem 1 in R
 # Topic: Dynamic Programming and Memoization
+
+# Test harness & execution verification
