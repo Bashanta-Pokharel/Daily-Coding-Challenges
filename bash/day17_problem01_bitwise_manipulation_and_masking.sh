@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 1 Scaffold for Bash
+# Implementation for Day 17 Problem 1 in Bash
+# Topic: Bitwise Manipulation and Masking
