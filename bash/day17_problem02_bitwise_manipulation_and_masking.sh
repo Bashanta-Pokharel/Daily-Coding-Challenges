@@ -6,3 +6,7 @@
 
 # Implementation for Day 17 Problem 2 in Bash
 # Topic: Bitwise Manipulation and Masking
+
+# Test harness & execution verification
+
+# Time Complexity: O(N), Space Complexity: O(1)
