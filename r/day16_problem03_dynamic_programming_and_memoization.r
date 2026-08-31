@@ -4,4 +4,9 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 3 Scaffold for R
+# Implementation for Day 16 Problem 3 in R
+# Topic: Dynamic Programming and Memoization
+
+# Test harness & execution verification
+
+# Time Complexity: O(N), Space Complexity: O(1)
