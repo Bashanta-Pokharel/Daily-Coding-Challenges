@@ -2,14 +2,13 @@ name: Daily Practice Runner & Verification Pipeline
 
 on:
   schedule:
-    # Every day at approximately 7:00 PM Nepal Time
+    # Runs every day at 7:00 PM Nepal Time (NPT UTC+05:45 => 13:15 UTC)
     - cron: '15 13 * * *'
   workflow_dispatch:
 
 jobs:
   practice-suite:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -25,54 +24,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Configure Git
+      - name: Configure Git Author
         run: |
           git config --global user.name "Bashanta-Pokharel"
           git config --global user.email "pbasanta340@gmail.com"
 
-      - name: Calculate next code number
-        id: counter
-        shell: bash
-        run: |
-          COUNTER_FILE=".github/daily_code_number"
-
-          if [ -f "$COUNTER_FILE" ]; then
-            CODE_NUMBER=$(cat "$COUNTER_FILE")
-          else
-            CODE_NUMBER=0
-          fi
-
-          CODE_NUMBER=$((CODE_NUMBER + 1))
-
-          mkdir -p .github
-          echo "$CODE_NUMBER" > "$COUNTER_FILE"
-
-          echo "code_number=$CODE_NUMBER" >> "$GITHUB_OUTPUT"
-
-          echo "Today's Code Number: $CODE_NUMBER"
-
-      - name: Execute daily practice
-        env:
-          CODE_NUMBER: ${{ steps.counter.outputs.code_number }}
-          CODE_DATE: ${{ steps.counter.outputs.code_date }}
+      - name: Execute daily practice session & generate commits
         run: |
           chmod +x ./scripts/daily_code_generator.py
           python3 ./scripts/daily_code_generator.py
 
-      - name: Commit today's code
+      - name: Push practice commits to GitHub
         run: |
-          CODE_NUMBER="${{ steps.counter.outputs.code_number }}"
-          TODAY=$(date +'%Y-%m-%d')
-
-          git add .
-
-          if git diff --cached --quiet; then
-            echo "No changes generated today."
-            exit 0
-          fi
-
-          git commit -m "Day $CODE_NUMBER - Daily Coding Practice - $TODAY"
-
-      - name: Push to GitHub
-        run: |
+          git pull --rebase origin main
           git push origin main
+
