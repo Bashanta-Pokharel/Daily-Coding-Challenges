@@ -1,6 +1,6 @@
 {
-  "current_day": 16,
-  "lang_index": 15,
+  "current_day": 17,
+  "lang_index": 16,
   "history": [
     {
       "date": "2026-08-18",
@@ -173,6 +173,18 @@
         "day15_problem03_graph_algorithms_bfs_and_dfs.scala",
         "day15_problem04_graph_algorithms_bfs_and_dfs.scala",
         "day15_problem05_graph_algorithms_bfs_and_dfs.scala"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "day": 16,
+      "language": "r",
+      "problems_count": 4,
+      "files": [
+        "day16_problem01_dynamic_programming_and_memoization.r",
+        "day16_problem02_dynamic_programming_and_memoization.r",
+        "day16_problem03_dynamic_programming_and_memoization.r",
+        "day16_problem04_dynamic_programming_and_memoization.r"
       ]
     }
   ]
