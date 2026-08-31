@@ -1,6 +1,6 @@
 {
-  "current_day": 17,
-  "lang_index": 16,
+  "current_day": 18,
+  "lang_index": 17,
   "history": [
     {
       "date": "2026-08-18",
@@ -185,6 +185,18 @@
         "day16_problem02_dynamic_programming_and_memoization.r",
         "day16_problem03_dynamic_programming_and_memoization.r",
         "day16_problem04_dynamic_programming_and_memoization.r"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "day": 17,
+      "language": "bash",
+      "problems_count": 4,
+      "files": [
+        "day17_problem01_bitwise_manipulation_and_masking.sh",
+        "day17_problem02_bitwise_manipulation_and_masking.sh",
+        "day17_problem03_bitwise_manipulation_and_masking.sh",
+        "day17_problem04_bitwise_manipulation_and_masking.sh"
       ]
     }
   ]
