@@ -19,6 +19,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Randomized Time Delay (7:00 PM - 10:00 PM Window)
+        run: |
+          # Random sleep delay between 0 and 3 hours (0 to 10800 seconds)
+          RANDOM_DELAY=$((RANDOM % 10800))
+          MINUTES=$((RANDOM_DELAY / 60))
+          echo "Sleeping for $RANDOM_DELAY seconds ($MINUTES minutes) so commit happens randomly between 7:00 PM and 10:00 PM NPT..."
+          sleep $RANDOM_DELAY
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
