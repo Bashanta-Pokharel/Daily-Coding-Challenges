@@ -354,6 +354,11 @@ def generate_today():
     today_str = date.today().isoformat()
     state = load_state()
 
+    # If practice for today was already generated and committed, skip safely
+    if state.get("history") and any(h.get("date") == today_str for h in state["history"]):
+        print(f"✅ Daily practice for {today_str} is already completed.")
+        return
+
     current_day = state.get("current_day", 1)
     lang_index = state.get("lang_index", 0)
 
