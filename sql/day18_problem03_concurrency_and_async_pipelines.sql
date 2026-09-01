@@ -6,3 +6,5 @@
 
 -- Implementation for Day 18 Problem 3 in SQL
 -- Topic: Concurrency and Async Pipelines
+
+-- Test harness & execution verification
