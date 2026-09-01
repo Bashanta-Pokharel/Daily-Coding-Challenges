@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 2 Scaffold for SQL
+-- Implementation for Day 18 Problem 2 in SQL
+-- Topic: Concurrency and Async Pipelines
