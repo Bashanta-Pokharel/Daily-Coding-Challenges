@@ -1,6 +1,6 @@
 {
-  "current_day": 18,
-  "lang_index": 17,
+  "current_day": 19,
+  "lang_index": 18,
   "history": [
     {
       "date": "2026-08-18",
@@ -197,6 +197,18 @@
         "day17_problem02_bitwise_manipulation_and_masking.sh",
         "day17_problem03_bitwise_manipulation_and_masking.sh",
         "day17_problem04_bitwise_manipulation_and_masking.sh"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "day": 18,
+      "language": "sql",
+      "problems_count": 4,
+      "files": [
+        "day18_problem01_concurrency_and_async_pipelines.sql",
+        "day18_problem02_concurrency_and_async_pipelines.sql",
+        "day18_problem03_concurrency_and_async_pipelines.sql",
+        "day18_problem04_concurrency_and_async_pipelines.sql"
       ]
     }
   ]
