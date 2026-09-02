@@ -1,6 +1,6 @@
 {
-  "current_day": 19,
-  "lang_index": 18,
+  "current_day": 20,
+  "lang_index": 19,
   "history": [
     {
       "date": "2026-08-18",
@@ -209,6 +209,19 @@
         "day18_problem02_concurrency_and_async_pipelines.sql",
         "day18_problem03_concurrency_and_async_pipelines.sql",
         "day18_problem04_concurrency_and_async_pipelines.sql"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "day": 19,
+      "language": "lua",
+      "problems_count": 5,
+      "files": [
+        "day19_problem01_file_io_and_data_serialization.lua",
+        "day19_problem02_file_io_and_data_serialization.lua",
+        "day19_problem03_file_io_and_data_serialization.lua",
+        "day19_problem04_file_io_and_data_serialization.lua",
+        "day19_problem05_file_io_and_data_serialization.lua"
       ]
     }
   ]
