@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 2 Scaffold for Lua
+-- Implementation for Day 19 Problem 2 in Lua
+-- Topic: File IO and Data Serialization
