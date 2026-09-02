@@ -6,3 +6,5 @@
 
 -- Implementation for Day 19 Problem 4 in Lua
 -- Topic: File IO and Data Serialization
+
+-- Test harness & execution verification
