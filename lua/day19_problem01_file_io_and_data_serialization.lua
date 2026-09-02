@@ -6,3 +6,7 @@
 
 -- Implementation for Day 19 Problem 1 in Lua
 -- Topic: File IO and Data Serialization
+
+-- Test harness & execution verification
+
+-- Time Complexity: O(N), Space Complexity: O(1)
