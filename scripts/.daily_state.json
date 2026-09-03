@@ -1,6 +1,6 @@
 {
-  "current_day": 20,
-  "lang_index": 19,
+  "current_day": 21,
+  "lang_index": 20,
   "history": [
     {
       "date": "2026-08-18",
@@ -222,6 +222,19 @@
         "day19_problem03_file_io_and_data_serialization.lua",
         "day19_problem04_file_io_and_data_serialization.lua",
         "day19_problem05_file_io_and_data_serialization.lua"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "day": 20,
+      "language": "julia",
+      "problems_count": 5,
+      "files": [
+        "day20_problem01_error_handling_and_result_enums.jl",
+        "day20_problem02_error_handling_and_result_enums.jl",
+        "day20_problem03_error_handling_and_result_enums.jl",
+        "day20_problem04_error_handling_and_result_enums.jl",
+        "day20_problem05_error_handling_and_result_enums.jl"
       ]
     }
   ]
