@@ -7,7 +7,6 @@ Maintains daily algorithmic problem solving practice across 22 programming langu
 import os
 import sys
 import json
-import random
 import time
 import subprocess
 from datetime import datetime, date
@@ -225,9 +224,28 @@ def generate_problem_stages(lang: str, day: int, problem_num: int, topic: str) -
             f"    return 0;\n"
             f"}}\n"
         )
-        s3 = s2
+        s3 = (
+            f"{header}\n"
+            f"#include <iostream>\n"
+            f"#include <vector>\n"
+            f"#include <numeric>\n"
+            f"#include <algorithm>\n\n"
+            f"int main() {{\n"
+            f'    std::cout << "--- Day {day} Problem {problem_num} ({disp}): {topic} ---\\n";\n'
+            f"    std::vector<int> nums = {{14, 25, 36, 47, 58, 69}};\n"
+            f"    std::vector<int> evens;\n"
+            f"    for(int n : nums) {{\n"
+            f"        if(n % 2 == 0) evens.push_back(n * {problem_num});\n"
+            f"    }}\n"
+            f"    int sum = std::accumulate(evens.begin(), evens.end(), 0);\n"
+            f"    bool verified = !evens.empty() && sum > 0;\n"
+            f'    std::cout << "Processed elements: " << evens.size() << " | Sum: " << sum << std::endl;\n'
+            f'    std::cout << "Verification passed: " << std::boolalpha << verified << std::endl;\n'
+            f"    return verified ? 0 : 1;\n"
+            f"}}\n"
+        )
         s4 = (
-            f"{s2}\n"
+            f"{s3}\n"
             f"// Time: O(N) | Space: O(N)\n"
         )
 
@@ -293,9 +311,25 @@ def generate_problem_stages(lang: str, day: int, problem_num: int, topic: str) -
             f"    }}\n"
             f"}}\n"
         )
-        s3 = s2
+        s3 = (
+            f"{header}\n"
+            f"import java.util.Arrays;\n"
+            f"import java.util.List;\n"
+            f"import java.util.stream.Collectors;\n\n"
+            f"public class {classname} {{\n"
+            f"    public static void main(String[] args) {{\n"
+            f'        System.out.println("--- Day {day} Problem {problem_num} ({disp}): {topic} ---");\n'
+            f"        List<Integer> numbers = Arrays.asList(12, 23, 34, 45, 56, 67);\n"
+            f"        List<Integer> evens = numbers.stream().filter(n -> n % 2 == 0).map(n -> n * {problem_num}).collect(Collectors.toList());\n"
+            f"        int sum = evens.stream().mapToInt(Integer::intValue).sum();\n"
+            f"        boolean verified = !evens.isEmpty() && sum > 0;\n"
+            f'        System.out.println("Result List: " + evens + " | Sum: " + sum);\n'
+            f'        System.out.println("Verification passed: " + verified);\n'
+            f"    }}\n"
+            f"}}\n"
+        )
         s4 = (
-            f"{s2}\n"
+            f"{s3}\n"
             f"// Complexity: O(N) time, O(N) space\n"
         )
 
@@ -316,9 +350,20 @@ def generate_problem_stages(lang: str, day: int, problem_num: int, topic: str) -
             f'    println!("Evens: {{:?}}, Sum: {{}}", evens, sum);\n'
             f"}}\n"
         )
-        s3 = s2
+        s3 = (
+            f"{header}\n"
+            f"fn main() {{\n"
+            f'    println!("--- Day {{}} Problem {{}} ({disp}): {{}} ---", {day}, {problem_num}, "{topic}");\n'
+            f"    let data = vec![10, 21, 32, 43, 54, 65];\n"
+            f"    let evens: Vec<i32> = data.into_iter().filter(|x| x % 2 == 0).map(|x| x * {problem_num}).collect();\n"
+            f"    let sum: i32 = evens.iter().sum();\n"
+            f"    let verified = !evens.is_empty() && sum > 0;\n"
+            f'    println!("Evens: {{:?}}, Sum: {{}}", evens, sum);\n'
+            f'    println!("Verification passed: {{}}", verified);\n'
+            f"}}\n"
+        )
         s4 = (
-            f"{s2}\n"
+            f"{s3}\n"
             f"// Time: O(N), Space: O(N)\n"
         )
 
@@ -362,13 +407,12 @@ def generate_today():
     current_day = state.get("current_day", 1)
     lang_index = state.get("lang_index", 0)
 
-    # Random target commits strictly > 10 and < 20 (i.e. 11 to 19 commits total)
-    target_total_commits = random.randint(11, 19)
-    # 1 commit is reserved for README & .daily_state.json log update
-    target_code_commits = target_total_commits - 1  # 10 to 18
+    # 4 problems x 4 stages + 1 log commit = 17 commits total.
+    target_total_commits = 17
+    target_code_commits = target_total_commits - 1
 
-    # Generate 3 to 5 problems
-    num_codes = random.randint(3, 5)
+    # More than 3 and less than 5 means exactly 4 practice files per day.
+    num_codes = 4
 
     # Pick language
     lang = LANGUAGES[lang_index % len(LANGUAGES)]
@@ -389,20 +433,8 @@ def generate_today():
             "filename": fname,
             "filepath": os.path.join(lang_dir, fname),
             "stages": stages,
-            "commits_assigned": 2  # start with at least 2 stages per problem
+            "commits_assigned": 4
         })
-
-    # Distribute remaining commit budget across problems
-    current_assigned = sum(p["commits_assigned"] for p in problem_data)
-    while current_assigned < target_code_commits:
-        # Pick problems that have fewer than 4 stages assigned
-        eligible = [p for p in problem_data if p["commits_assigned"] < 4]
-        if not eligible:
-            # If all problems already have 4 stages, add another problem if possible or break
-            break
-        chosen = random.choice(eligible)
-        chosen["commits_assigned"] += 1
-        current_assigned += 1
 
     created_files = []
     commits_executed = 0
@@ -459,4 +491,3 @@ def generate_today():
 
 if __name__ == "__main__":
     generate_today()
-

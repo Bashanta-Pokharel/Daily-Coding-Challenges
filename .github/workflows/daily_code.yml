@@ -1,13 +1,9 @@
-name: Daily Practice Runner & Verification Pipeline
+name: Daily 6 PM Nepal Practice Push
 
 on:
   schedule:
-    # Primary trigger: 7:00 PM Nepal Time (NPT UTC+05:45 => 13:15 UTC)
-    - cron: '15 13 * * *'
-    # Backup triggers: 7:30 PM, 8:00 PM, 9:00 PM Nepal Time to guarantee execution
-    - cron: '45 13 * * *'
-    - cron: '15 14 * * *'
-    - cron: '15 15 * * *'
+    # 6:00 PM Nepal Time (NPT UTC+05:45 => 12:15 UTC)
+    - cron: '15 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -46,5 +42,4 @@ jobs:
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
           git pull --rebase origin main || true
           git push origin main
-
 
