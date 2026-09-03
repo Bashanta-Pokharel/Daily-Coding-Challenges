@@ -407,12 +407,13 @@ def generate_today():
     current_day = state.get("current_day", 1)
     lang_index = state.get("lang_index", 0)
 
-    # 4 problems x 4 stages + 1 log commit = 17 commits total.
-    target_total_commits = 17
+    # 4 problems x 4 stages + 1 log commit = 17 commits per run.
+    # Generate 15-20 commits per daily push to maintain consistent GitHub activity.
+    target_total_commits = 19
     target_code_commits = target_total_commits - 1
 
-    # More than 3 and less than 5 means exactly 4 practice files per day.
-    num_codes = 4
+    # Generate 5 practice problems per run (5 * 4 stages = 20 commits, minus 1 log = 19 total)
+    num_codes = 5
 
     # Pick language
     lang = LANGUAGES[lang_index % len(LANGUAGES)]
