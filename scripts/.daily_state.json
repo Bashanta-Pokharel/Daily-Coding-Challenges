@@ -1,6 +1,6 @@
 {
-  "current_day": 21,
-  "lang_index": 20,
+  "current_day": 22,
+  "lang_index": 21,
   "history": [
     {
       "date": "2026-08-18",
@@ -235,6 +235,19 @@
         "day20_problem03_error_handling_and_result_enums.jl",
         "day20_problem04_error_handling_and_result_enums.jl",
         "day20_problem05_error_handling_and_result_enums.jl"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "day": 21,
+      "language": "haskell",
+      "problems_count": 5,
+      "files": [
+        "day21_problem01_variables.hs",
+        "day21_problem02_variables.hs",
+        "day21_problem03_variables.hs",
+        "day21_problem04_variables.hs",
+        "day21_problem05_variables.hs"
       ]
     }
   ]
