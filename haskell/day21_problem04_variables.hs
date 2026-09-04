@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 4 Scaffold for Haskell
+-- Implementation for Day 21 Problem 4 in Haskell
+-- Topic: Variables, Types and Memory Models
