@@ -6,3 +6,5 @@
 
 -- Implementation for Day 21 Problem 5 in Haskell
 -- Topic: Variables, Types and Memory Models
+
+-- Test harness & execution verification
