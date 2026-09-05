@@ -1,6 +1,6 @@
 {
-  "current_day": 22,
-  "lang_index": 21,
+  "current_day": 23,
+  "lang_index": 22,
   "history": [
     {
       "date": "2026-08-18",
@@ -248,6 +248,19 @@
         "day21_problem03_variables.hs",
         "day21_problem04_variables.hs",
         "day21_problem05_variables.hs"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "day": 22,
+      "language": "elixir",
+      "problems_count": 5,
+      "files": [
+        "day22_problem01_conditionals_and_pattern_matching.ex",
+        "day22_problem02_conditionals_and_pattern_matching.ex",
+        "day22_problem03_conditionals_and_pattern_matching.ex",
+        "day22_problem04_conditionals_and_pattern_matching.ex",
+        "day22_problem05_conditionals_and_pattern_matching.ex"
       ]
     }
   ]
