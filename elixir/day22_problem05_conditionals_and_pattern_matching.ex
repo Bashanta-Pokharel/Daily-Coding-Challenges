@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 5 Scaffold for Elixir
+# Implementation for Day 22 Problem 5 in Elixir
+# Topic: Conditionals and Pattern Matching
