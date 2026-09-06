@@ -1,6 +1,6 @@
 {
-  "current_day": 23,
-  "lang_index": 22,
+  "current_day": 24,
+  "lang_index": 23,
   "history": [
     {
       "date": "2026-08-18",
@@ -261,6 +261,19 @@
         "day22_problem03_conditionals_and_pattern_matching.ex",
         "day22_problem04_conditionals_and_pattern_matching.ex",
         "day22_problem05_conditionals_and_pattern_matching.ex"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "day": 23,
+      "language": "python",
+      "problems_count": 5,
+      "files": [
+        "day23_problem01_loops_and_iterative_algorithms.py",
+        "day23_problem02_loops_and_iterative_algorithms.py",
+        "day23_problem03_loops_and_iterative_algorithms.py",
+        "day23_problem04_loops_and_iterative_algorithms.py",
+        "day23_problem05_loops_and_iterative_algorithms.py"
       ]
     }
   ]
