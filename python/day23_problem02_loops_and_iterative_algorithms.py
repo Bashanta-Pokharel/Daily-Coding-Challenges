@@ -10,3 +10,8 @@ def solve_problem_2(values: list[int]) -> dict:
     total = sum(processed)
     avg = total / len(processed) if processed else 0
     return {"day": 23, "problem": 2, "count": len(processed), "sum": total, "avg": avg}
+
+if __name__ == "__main__":
+    test_data = [10, 15, 22, 34, 45, 56, 68]
+    result = solve_problem_2(test_data)
+    print(f"[Python - Day 23 Problem 2] Result: {result}")
