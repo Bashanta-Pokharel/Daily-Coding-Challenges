@@ -5,6 +5,8 @@
 # ==============================================================================
 
 def solve_problem_1(values: list[int]) -> dict:
-    """Starter stub for Day 23 challenge #1: Loops and Iterative Algorithms."""
-    # TODO: Implement algorithmic logic
-    pass
+    """Solves Day 23 challenge #1 for Loops and Iterative Algorithms."""
+    processed = [x * 1 for x in values if x % 2 == 0]
+    total = sum(processed)
+    avg = total / len(processed) if processed else 0
+    return {"day": 23, "problem": 1, "count": len(processed), "sum": total, "avg": avg}
