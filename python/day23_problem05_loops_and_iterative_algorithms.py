@@ -15,3 +15,9 @@ if __name__ == "__main__":
     test_data = [10, 15, 22, 34, 45, 56, 68]
     result = solve_problem_5(test_data)
     print(f"[Python - Day 23 Problem 5] Result: {result}")
+
+"""
+Complexity Analysis:
+- Time Complexity: O(N) where N is dataset length
+- Space Complexity: O(N) for filtered buffer
+"""
