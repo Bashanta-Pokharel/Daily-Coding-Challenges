@@ -9,3 +9,6 @@ function solveProblem1(inputArray) {
   const sum = filtered.reduce((acc, curr) => acc + curr, 0);
   return { day: 24, problem: 1, items: filtered, total: sum };
 }
+
+const sampleData = [12, 25, 34, 48, 55, 60];
+console.log("Solution Output:", solveProblem1(sampleData));
