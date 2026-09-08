@@ -12,3 +12,7 @@ function solveProblem1(inputArray) {
 
 const sampleData = [12, 25, 34, 48, 55, 60];
 console.log("Solution Output:", solveProblem1(sampleData));
+
+// Complexity Analysis:
+// Time Complexity: O(N)
+// Space Complexity: O(N)
