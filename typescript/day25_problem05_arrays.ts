@@ -5,6 +5,7 @@
 // ==============================================================================
 
 function solveProblem5(inputArray) {
-  // Starter declaration for Arrays, Slices and Dynamic Buffers
-  return null;
+  const filtered = inputArray.filter(n => n % 2 === 0).map(n => n * 5);
+  const sum = filtered.reduce((acc, curr) => acc + curr, 0);
+  return { day: 25, problem: 5, items: filtered, total: sum };
 }
