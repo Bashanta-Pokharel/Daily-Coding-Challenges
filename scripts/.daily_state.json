@@ -1,6 +1,6 @@
 {
-  "current_day": 25,
-  "lang_index": 24,
+  "current_day": 26,
+  "lang_index": 25,
   "history": [
     {
       "date": "2026-08-18",
@@ -287,6 +287,19 @@
         "day24_problem03_functions.js",
         "day24_problem04_functions.js",
         "day24_problem05_functions.js"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "day": 25,
+      "language": "typescript",
+      "problems_count": 5,
+      "files": [
+        "day25_problem01_arrays.ts",
+        "day25_problem02_arrays.ts",
+        "day25_problem03_arrays.ts",
+        "day25_problem04_arrays.ts",
+        "day25_problem05_arrays.ts"
       ]
     }
   ]
