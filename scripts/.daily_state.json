@@ -1,6 +1,6 @@
 {
-  "current_day": 26,
-  "lang_index": 25,
+  "current_day": 27,
+  "lang_index": 26,
   "history": [
     {
       "date": "2026-08-18",
@@ -300,6 +300,19 @@
         "day25_problem03_arrays.ts",
         "day25_problem04_arrays.ts",
         "day25_problem05_arrays.ts"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "day": 26,
+      "language": "c",
+      "problems_count": 5,
+      "files": [
+        "day26_problem01_string_algorithms_and_parsing.c",
+        "day26_problem02_string_algorithms_and_parsing.c",
+        "day26_problem03_string_algorithms_and_parsing.c",
+        "day26_problem04_string_algorithms_and_parsing.c",
+        "day26_problem05_string_algorithms_and_parsing.c"
       ]
     }
   ]
