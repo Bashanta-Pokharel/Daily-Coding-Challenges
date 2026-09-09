@@ -20,3 +20,5 @@ int main(void) {
     solveProblem5(dataset, sizeof(dataset)/sizeof(dataset[0]));
     return 0;
 }
+
+/* Time: O(N), Space: O(1) */
