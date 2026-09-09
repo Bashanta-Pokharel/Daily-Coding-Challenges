@@ -14,3 +14,9 @@ void solveProblem1(int arr[], int size) {
     }
     printf("Computed Result Sum: %d\n", sum);
 }
+
+int main(void) {
+    int dataset[] = {10, 21, 32, 43, 54, 65};
+    solveProblem1(dataset, sizeof(dataset)/sizeof(dataset[0]));
+    return 0;
+}
