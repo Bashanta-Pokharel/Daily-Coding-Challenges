@@ -6,5 +6,17 @@
 
 #include <iostream>
 #include <vector>
+#include <numeric>
+#include <algorithm>
 
-// Problem 1 Starter Interface
+int main() {
+    std::cout << "--- Day 27 Problem 1 (C++): Hash Maps and Lookup Tables ---\n";
+    std::vector<int> nums = {14, 25, 36, 47, 58, 69};
+    std::vector<int> evens;
+    for(int n : nums) {
+        if(n % 2 == 0) evens.push_back(n * 1);
+    }
+    int sum = std::accumulate(evens.begin(), evens.end(), 0);
+    std::cout << "Processed elements: " << evens.size() << " | Sum: " << sum << std::endl;
+    return 0;
+}
