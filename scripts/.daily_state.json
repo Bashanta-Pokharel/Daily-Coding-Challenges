@@ -1,6 +1,6 @@
 {
-  "current_day": 27,
-  "lang_index": 26,
+  "current_day": 28,
+  "lang_index": 27,
   "history": [
     {
       "date": "2026-08-18",
@@ -313,6 +313,19 @@
         "day26_problem03_string_algorithms_and_parsing.c",
         "day26_problem04_string_algorithms_and_parsing.c",
         "day26_problem05_string_algorithms_and_parsing.c"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "day": 27,
+      "language": "cpp",
+      "problems_count": 5,
+      "files": [
+        "day27_problem01_hash_maps_and_lookup_tables.cpp",
+        "day27_problem02_hash_maps_and_lookup_tables.cpp",
+        "day27_problem03_hash_maps_and_lookup_tables.cpp",
+        "day27_problem04_hash_maps_and_lookup_tables.cpp",
+        "day27_problem05_hash_maps_and_lookup_tables.cpp"
       ]
     }
   ]
