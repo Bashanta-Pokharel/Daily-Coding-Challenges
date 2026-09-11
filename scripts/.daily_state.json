@@ -1,6 +1,6 @@
 {
-  "current_day": 28,
-  "lang_index": 27,
+  "current_day": 29,
+  "lang_index": 28,
   "history": [
     {
       "date": "2026-08-18",
@@ -326,6 +326,19 @@
         "day27_problem03_hash_maps_and_lookup_tables.cpp",
         "day27_problem04_hash_maps_and_lookup_tables.cpp",
         "day27_problem05_hash_maps_and_lookup_tables.cpp"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "day": 28,
+      "language": "csharp",
+      "problems_count": 5,
+      "files": [
+        "day28_problem01_object-oriented_and_structural_design.cs",
+        "day28_problem02_object-oriented_and_structural_design.cs",
+        "day28_problem03_object-oriented_and_structural_design.cs",
+        "day28_problem04_object-oriented_and_structural_design.cs",
+        "day28_problem05_object-oriented_and_structural_design.cs"
       ]
     }
   ]
