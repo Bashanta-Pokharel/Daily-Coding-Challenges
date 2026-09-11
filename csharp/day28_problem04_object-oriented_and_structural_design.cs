@@ -6,3 +6,5 @@
 
 // Implementation for Day 28 Problem 4 in C#
 // Topic: Object-Oriented and Structural Design
+
+// Test harness & execution verification
