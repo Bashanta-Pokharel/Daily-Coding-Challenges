@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 4 Scaffold for C#
+// Implementation for Day 28 Problem 4 in C#
+// Topic: Object-Oriented and Structural Design
