@@ -1,6 +1,6 @@
 {
-  "current_day": 29,
-  "lang_index": 28,
+  "current_day": 30,
+  "lang_index": 29,
   "history": [
     {
       "date": "2026-08-18",
@@ -339,6 +339,19 @@
         "day28_problem03_object-oriented_and_structural_design.cs",
         "day28_problem04_object-oriented_and_structural_design.cs",
         "day28_problem05_object-oriented_and_structural_design.cs"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "day": 29,
+      "language": "java",
+      "problems_count": 5,
+      "files": [
+        "Day29_Problem01_recursion_and_divide-and-conquer.java",
+        "Day29_Problem02_recursion_and_divide-and-conquer.java",
+        "Day29_Problem03_recursion_and_divide-and-conquer.java",
+        "Day29_Problem04_recursion_and_divide-and-conquer.java",
+        "Day29_Problem05_recursion_and_divide-and-conquer.java"
       ]
     }
   ]
