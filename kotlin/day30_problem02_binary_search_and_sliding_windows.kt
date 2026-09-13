@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for Kotlin
+// Implementation for Day 30 Problem 2 in Kotlin
+// Topic: Binary Search and Sliding Windows
