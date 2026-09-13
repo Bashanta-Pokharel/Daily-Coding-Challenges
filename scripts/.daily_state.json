@@ -1,6 +1,6 @@
 {
-  "current_day": 30,
-  "lang_index": 29,
+  "current_day": 31,
+  "lang_index": 30,
   "history": [
     {
       "date": "2026-08-18",
@@ -352,6 +352,19 @@
         "Day29_Problem03_recursion_and_divide-and-conquer.java",
         "Day29_Problem04_recursion_and_divide-and-conquer.java",
         "Day29_Problem05_recursion_and_divide-and-conquer.java"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "day": 30,
+      "language": "kotlin",
+      "problems_count": 5,
+      "files": [
+        "day30_problem01_binary_search_and_sliding_windows.kt",
+        "day30_problem02_binary_search_and_sliding_windows.kt",
+        "day30_problem03_binary_search_and_sliding_windows.kt",
+        "day30_problem04_binary_search_and_sliding_windows.kt",
+        "day30_problem05_binary_search_and_sliding_windows.kt"
       ]
     }
   ]
