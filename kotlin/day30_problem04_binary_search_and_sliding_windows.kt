@@ -6,3 +6,5 @@
 
 // Implementation for Day 30 Problem 4 in Kotlin
 // Topic: Binary Search and Sliding Windows
+
+// Test harness & execution verification
