@@ -1,6 +1,6 @@
 {
-  "current_day": 31,
-  "lang_index": 30,
+  "current_day": 32,
+  "lang_index": 31,
   "history": [
     {
       "date": "2026-08-18",
@@ -365,6 +365,19 @@
         "day30_problem03_binary_search_and_sliding_windows.kt",
         "day30_problem04_binary_search_and_sliding_windows.kt",
         "day30_problem05_binary_search_and_sliding_windows.kt"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "day": 31,
+      "language": "swift",
+      "problems_count": 5,
+      "files": [
+        "day31_problem01_sorting_algorithms_and_heuristics.swift",
+        "day31_problem02_sorting_algorithms_and_heuristics.swift",
+        "day31_problem03_sorting_algorithms_and_heuristics.swift",
+        "day31_problem04_sorting_algorithms_and_heuristics.swift",
+        "day31_problem05_sorting_algorithms_and_heuristics.swift"
       ]
     }
   ]
