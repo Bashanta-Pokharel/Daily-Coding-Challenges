@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 3 Scaffold for Swift
+// Implementation for Day 31 Problem 3 in Swift
+// Topic: Sorting Algorithms and Heuristics
