@@ -19,3 +19,10 @@ func solveProblem2(numbers []int) (int, int) {
     }
     return count, sum
 }
+
+func main() {
+    fmt.Println("--- Day 32 Problem 2 (Go): Stacks and Queues Data Structures ---")
+    data := []int{10, 23, 34, 45, 56, 67}
+    count, total := solveProblem2(data)
+    fmt.Printf("Even Count: %d, Scaled Total: %d\n", count, total)
+}
