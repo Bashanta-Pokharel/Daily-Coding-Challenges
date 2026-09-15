@@ -1,6 +1,6 @@
 {
-  "current_day": 32,
-  "lang_index": 31,
+  "current_day": 33,
+  "lang_index": 32,
   "history": [
     {
       "date": "2026-08-18",
@@ -378,6 +378,19 @@
         "day31_problem03_sorting_algorithms_and_heuristics.swift",
         "day31_problem04_sorting_algorithms_and_heuristics.swift",
         "day31_problem05_sorting_algorithms_and_heuristics.swift"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "day": 32,
+      "language": "go",
+      "problems_count": 5,
+      "files": [
+        "day32_problem01_stacks_and_queues_data_structures.go",
+        "day32_problem02_stacks_and_queues_data_structures.go",
+        "day32_problem03_stacks_and_queues_data_structures.go",
+        "day32_problem04_stacks_and_queues_data_structures.go",
+        "day32_problem05_stacks_and_queues_data_structures.go"
       ]
     }
   ]
