@@ -1,6 +1,6 @@
 {
-  "current_day": 33,
-  "lang_index": 32,
+  "current_day": 34,
+  "lang_index": 33,
   "history": [
     {
       "date": "2026-08-18",
@@ -391,6 +391,19 @@
         "day32_problem03_stacks_and_queues_data_structures.go",
         "day32_problem04_stacks_and_queues_data_structures.go",
         "day32_problem05_stacks_and_queues_data_structures.go"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "day": 33,
+      "language": "rust",
+      "problems_count": 5,
+      "files": [
+        "day33_problem01_linked_lists_and_pointer_graphs.rs",
+        "day33_problem02_linked_lists_and_pointer_graphs.rs",
+        "day33_problem03_linked_lists_and_pointer_graphs.rs",
+        "day33_problem04_linked_lists_and_pointer_graphs.rs",
+        "day33_problem05_linked_lists_and_pointer_graphs.rs"
       ]
     }
   ]
