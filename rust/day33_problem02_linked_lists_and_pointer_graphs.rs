@@ -5,5 +5,9 @@
 // ==============================================================================
 
 fn main() {
-    println!("Starter Day 33 Problem 2");
+    println!("--- Day {} Problem {} (Rust): {} ---", 33, 2, "Linked Lists and Pointer Graphs");
+    let data = vec![10, 21, 32, 43, 54, 65];
+    let evens: Vec<i32> = data.into_iter().filter(|x| x % 2 == 0).map(|x| x * 2).collect();
+    let sum: i32 = evens.iter().sum();
+    println!("Evens: {:?}, Sum: {}", evens, sum);
 }
