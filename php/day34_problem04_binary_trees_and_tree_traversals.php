@@ -6,3 +6,5 @@
 
 // Implementation for Day 34 Problem 4 in PHP
 // Topic: Binary Trees and Tree Traversals
+
+// Test harness & execution verification
