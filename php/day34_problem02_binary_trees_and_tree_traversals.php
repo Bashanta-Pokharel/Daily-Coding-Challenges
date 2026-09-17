@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for PHP
+// Implementation for Day 34 Problem 2 in PHP
+// Topic: Binary Trees and Tree Traversals
