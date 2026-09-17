@@ -1,6 +1,6 @@
 {
-  "current_day": 34,
-  "lang_index": 33,
+  "current_day": 35,
+  "lang_index": 34,
   "history": [
     {
       "date": "2026-08-18",
@@ -404,6 +404,19 @@
         "day33_problem03_linked_lists_and_pointer_graphs.rs",
         "day33_problem04_linked_lists_and_pointer_graphs.rs",
         "day33_problem05_linked_lists_and_pointer_graphs.rs"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "day": 34,
+      "language": "php",
+      "problems_count": 5,
+      "files": [
+        "day34_problem01_binary_trees_and_tree_traversals.php",
+        "day34_problem02_binary_trees_and_tree_traversals.php",
+        "day34_problem03_binary_trees_and_tree_traversals.php",
+        "day34_problem04_binary_trees_and_tree_traversals.php",
+        "day34_problem05_binary_trees_and_tree_traversals.php"
       ]
     }
   ]
