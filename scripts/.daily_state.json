@@ -1,6 +1,6 @@
 {
-  "current_day": 35,
-  "lang_index": 34,
+  "current_day": 36,
+  "lang_index": 35,
   "history": [
     {
       "date": "2026-08-18",
@@ -417,6 +417,19 @@
         "day34_problem03_binary_trees_and_tree_traversals.php",
         "day34_problem04_binary_trees_and_tree_traversals.php",
         "day34_problem05_binary_trees_and_tree_traversals.php"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "day": 35,
+      "language": "ruby",
+      "problems_count": 5,
+      "files": [
+        "day35_problem01_graph_algorithms_bfs_and_dfs.rb",
+        "day35_problem02_graph_algorithms_bfs_and_dfs.rb",
+        "day35_problem03_graph_algorithms_bfs_and_dfs.rb",
+        "day35_problem04_graph_algorithms_bfs_and_dfs.rb",
+        "day35_problem05_graph_algorithms_bfs_and_dfs.rb"
       ]
     }
   ]
