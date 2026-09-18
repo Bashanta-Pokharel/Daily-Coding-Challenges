@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 3 Scaffold for Ruby
+# Implementation for Day 35 Problem 3 in Ruby
+# Topic: Graph Algorithms BFS and DFS
