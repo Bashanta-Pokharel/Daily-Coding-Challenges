@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for Dart
+// Implementation for Day 36 Problem 2 in Dart
+// Topic: Dynamic Programming and Memoization
