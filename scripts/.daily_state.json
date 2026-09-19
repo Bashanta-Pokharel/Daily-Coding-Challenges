@@ -1,6 +1,6 @@
 {
-  "current_day": 36,
-  "lang_index": 35,
+  "current_day": 37,
+  "lang_index": 36,
   "history": [
     {
       "date": "2026-08-18",
@@ -430,6 +430,19 @@
         "day35_problem03_graph_algorithms_bfs_and_dfs.rb",
         "day35_problem04_graph_algorithms_bfs_and_dfs.rb",
         "day35_problem05_graph_algorithms_bfs_and_dfs.rb"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "day": 36,
+      "language": "dart",
+      "problems_count": 5,
+      "files": [
+        "day36_problem01_dynamic_programming_and_memoization.dart",
+        "day36_problem02_dynamic_programming_and_memoization.dart",
+        "day36_problem03_dynamic_programming_and_memoization.dart",
+        "day36_problem04_dynamic_programming_and_memoization.dart",
+        "day36_problem05_dynamic_programming_and_memoization.dart"
       ]
     }
   ]
