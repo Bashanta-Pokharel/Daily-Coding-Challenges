@@ -1,6 +1,6 @@
 {
-  "current_day": 37,
-  "lang_index": 36,
+  "current_day": 38,
+  "lang_index": 37,
   "history": [
     {
       "date": "2026-08-18",
@@ -443,6 +443,19 @@
         "day36_problem03_dynamic_programming_and_memoization.dart",
         "day36_problem04_dynamic_programming_and_memoization.dart",
         "day36_problem05_dynamic_programming_and_memoization.dart"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "day": 37,
+      "language": "scala",
+      "problems_count": 5,
+      "files": [
+        "day37_problem01_bitwise_manipulation_and_masking.scala",
+        "day37_problem02_bitwise_manipulation_and_masking.scala",
+        "day37_problem03_bitwise_manipulation_and_masking.scala",
+        "day37_problem04_bitwise_manipulation_and_masking.scala",
+        "day37_problem05_bitwise_manipulation_and_masking.scala"
       ]
     }
   ]
