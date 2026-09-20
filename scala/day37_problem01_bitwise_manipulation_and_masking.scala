@@ -6,3 +6,5 @@
 
 // Implementation for Day 37 Problem 1 in Scala
 // Topic: Bitwise Manipulation and Masking
+
+// Test harness & execution verification
