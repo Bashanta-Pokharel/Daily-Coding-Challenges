@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 1 Scaffold for Scala
+// Implementation for Day 37 Problem 1 in Scala
+// Topic: Bitwise Manipulation and Masking
