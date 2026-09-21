@@ -6,3 +6,5 @@
 
 # Implementation for Day 38 Problem 4 in R
 # Topic: Concurrency and Async Pipelines
+
+# Test harness & execution verification
