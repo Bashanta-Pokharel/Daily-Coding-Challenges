@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 5 Scaffold for R
+# Implementation for Day 38 Problem 5 in R
+# Topic: Concurrency and Async Pipelines
