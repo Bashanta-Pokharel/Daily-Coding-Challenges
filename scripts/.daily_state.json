@@ -1,6 +1,6 @@
 {
-  "current_day": 38,
-  "lang_index": 37,
+  "current_day": 39,
+  "lang_index": 38,
   "history": [
     {
       "date": "2026-08-18",
@@ -456,6 +456,19 @@
         "day37_problem03_bitwise_manipulation_and_masking.scala",
         "day37_problem04_bitwise_manipulation_and_masking.scala",
         "day37_problem05_bitwise_manipulation_and_masking.scala"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "day": 38,
+      "language": "r",
+      "problems_count": 5,
+      "files": [
+        "day38_problem01_concurrency_and_async_pipelines.r",
+        "day38_problem02_concurrency_and_async_pipelines.r",
+        "day38_problem03_concurrency_and_async_pipelines.r",
+        "day38_problem04_concurrency_and_async_pipelines.r",
+        "day38_problem05_concurrency_and_async_pipelines.r"
       ]
     }
   ]
