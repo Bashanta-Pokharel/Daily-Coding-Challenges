@@ -1,6 +1,6 @@
 {
-  "current_day": 39,
-  "lang_index": 38,
+  "current_day": 40,
+  "lang_index": 39,
   "history": [
     {
       "date": "2026-08-18",
@@ -469,6 +469,19 @@
         "day38_problem03_concurrency_and_async_pipelines.r",
         "day38_problem04_concurrency_and_async_pipelines.r",
         "day38_problem05_concurrency_and_async_pipelines.r"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "day": 39,
+      "language": "bash",
+      "problems_count": 5,
+      "files": [
+        "day39_problem01_file_io_and_data_serialization.sh",
+        "day39_problem02_file_io_and_data_serialization.sh",
+        "day39_problem03_file_io_and_data_serialization.sh",
+        "day39_problem04_file_io_and_data_serialization.sh",
+        "day39_problem05_file_io_and_data_serialization.sh"
       ]
     }
   ]
