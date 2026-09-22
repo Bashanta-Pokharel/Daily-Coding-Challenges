@@ -6,3 +6,5 @@
 
 # Implementation for Day 39 Problem 2 in Bash
 # Topic: File IO and Data Serialization
+
+# Test harness & execution verification
