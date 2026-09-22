@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 3 Scaffold for Bash
+# Implementation for Day 39 Problem 3 in Bash
+# Topic: File IO and Data Serialization
