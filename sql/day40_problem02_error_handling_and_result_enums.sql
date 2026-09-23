@@ -6,3 +6,5 @@
 
 -- Implementation for Day 40 Problem 2 in SQL
 -- Topic: Error Handling and Result Enums
+
+-- Test harness & execution verification
