@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 4 Scaffold for SQL
+-- Implementation for Day 40 Problem 4 in SQL
+-- Topic: Error Handling and Result Enums
