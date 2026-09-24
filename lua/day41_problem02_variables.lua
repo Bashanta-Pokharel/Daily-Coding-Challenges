@@ -6,3 +6,5 @@
 
 -- Implementation for Day 41 Problem 2 in Lua
 -- Topic: Variables, Types and Memory Models
+
+-- Test harness & execution verification
