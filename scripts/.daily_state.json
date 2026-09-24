@@ -1,6 +1,6 @@
 {
-  "current_day": 41,
-  "lang_index": 40,
+  "current_day": 42,
+  "lang_index": 41,
   "history": [
     {
       "date": "2026-08-18",
@@ -495,6 +495,19 @@
         "day40_problem03_error_handling_and_result_enums.sql",
         "day40_problem04_error_handling_and_result_enums.sql",
         "day40_problem05_error_handling_and_result_enums.sql"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "day": 41,
+      "language": "lua",
+      "problems_count": 5,
+      "files": [
+        "day41_problem01_variables.lua",
+        "day41_problem02_variables.lua",
+        "day41_problem03_variables.lua",
+        "day41_problem04_variables.lua",
+        "day41_problem05_variables.lua"
       ]
     }
   ]
