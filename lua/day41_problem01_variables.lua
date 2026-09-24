@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 1 Scaffold for Lua
+-- Implementation for Day 41 Problem 1 in Lua
+-- Topic: Variables, Types and Memory Models
