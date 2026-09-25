@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 2 Scaffold for Julia
+# Implementation for Day 42 Problem 2 in Julia
+# Topic: Conditionals and Pattern Matching
