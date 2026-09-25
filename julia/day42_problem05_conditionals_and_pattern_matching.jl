@@ -6,3 +6,5 @@
 
 # Implementation for Day 42 Problem 5 in Julia
 # Topic: Conditionals and Pattern Matching
+
+# Test harness & execution verification
