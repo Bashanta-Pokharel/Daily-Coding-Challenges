@@ -1,6 +1,6 @@
 {
-  "current_day": 42,
-  "lang_index": 41,
+  "current_day": 43,
+  "lang_index": 42,
   "history": [
     {
       "date": "2026-08-18",
@@ -508,6 +508,19 @@
         "day41_problem03_variables.lua",
         "day41_problem04_variables.lua",
         "day41_problem05_variables.lua"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "day": 42,
+      "language": "julia",
+      "problems_count": 5,
+      "files": [
+        "day42_problem01_conditionals_and_pattern_matching.jl",
+        "day42_problem02_conditionals_and_pattern_matching.jl",
+        "day42_problem03_conditionals_and_pattern_matching.jl",
+        "day42_problem04_conditionals_and_pattern_matching.jl",
+        "day42_problem05_conditionals_and_pattern_matching.jl"
       ]
     }
   ]
