@@ -6,3 +6,5 @@
 
 -- Implementation for Day 43 Problem 4 in Haskell
 -- Topic: Loops and Iterative Algorithms
+
+-- Test harness & execution verification
