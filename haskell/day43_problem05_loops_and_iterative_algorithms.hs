@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 5 Scaffold for Haskell
+-- Implementation for Day 43 Problem 5 in Haskell
+-- Topic: Loops and Iterative Algorithms
