@@ -1,6 +1,6 @@
 {
-  "current_day": 43,
-  "lang_index": 42,
+  "current_day": 44,
+  "lang_index": 43,
   "history": [
     {
       "date": "2026-08-18",
@@ -521,6 +521,19 @@
         "day42_problem03_conditionals_and_pattern_matching.jl",
         "day42_problem04_conditionals_and_pattern_matching.jl",
         "day42_problem05_conditionals_and_pattern_matching.jl"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "day": 43,
+      "language": "haskell",
+      "problems_count": 5,
+      "files": [
+        "day43_problem01_loops_and_iterative_algorithms.hs",
+        "day43_problem02_loops_and_iterative_algorithms.hs",
+        "day43_problem03_loops_and_iterative_algorithms.hs",
+        "day43_problem04_loops_and_iterative_algorithms.hs",
+        "day43_problem05_loops_and_iterative_algorithms.hs"
       ]
     }
   ]
