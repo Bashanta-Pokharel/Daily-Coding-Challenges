@@ -1,6 +1,6 @@
 {
-  "current_day": 44,
-  "lang_index": 43,
+  "current_day": 45,
+  "lang_index": 44,
   "history": [
     {
       "date": "2026-08-18",
@@ -534,6 +534,19 @@
         "day43_problem03_loops_and_iterative_algorithms.hs",
         "day43_problem04_loops_and_iterative_algorithms.hs",
         "day43_problem05_loops_and_iterative_algorithms.hs"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "day": 44,
+      "language": "elixir",
+      "problems_count": 5,
+      "files": [
+        "day44_problem01_functions.ex",
+        "day44_problem02_functions.ex",
+        "day44_problem03_functions.ex",
+        "day44_problem04_functions.ex",
+        "day44_problem05_functions.ex"
       ]
     }
   ]
