@@ -6,3 +6,5 @@
 
 # Implementation for Day 44 Problem 2 in Elixir
 # Topic: Functions, Closures and Lambdas
+
+# Test harness & execution verification
