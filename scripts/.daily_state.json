@@ -1,6 +1,6 @@
 {
-  "current_day": 45,
-  "lang_index": 44,
+  "current_day": 46,
+  "lang_index": 45,
   "history": [
     {
       "date": "2026-08-18",
@@ -547,6 +547,19 @@
         "day44_problem03_functions.ex",
         "day44_problem04_functions.ex",
         "day44_problem05_functions.ex"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "day": 45,
+      "language": "python",
+      "problems_count": 5,
+      "files": [
+        "day45_problem01_arrays.py",
+        "day45_problem02_arrays.py",
+        "day45_problem03_arrays.py",
+        "day45_problem04_arrays.py",
+        "day45_problem05_arrays.py"
       ]
     }
   ]
