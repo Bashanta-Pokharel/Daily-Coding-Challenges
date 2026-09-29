@@ -1,6 +1,6 @@
 {
-  "current_day": 46,
-  "lang_index": 45,
+  "current_day": 47,
+  "lang_index": 46,
   "history": [
     {
       "date": "2026-08-18",
@@ -560,6 +560,19 @@
         "day45_problem03_arrays.py",
         "day45_problem04_arrays.py",
         "day45_problem05_arrays.py"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "day": 46,
+      "language": "javascript",
+      "problems_count": 5,
+      "files": [
+        "day46_problem01_string_algorithms_and_parsing.js",
+        "day46_problem02_string_algorithms_and_parsing.js",
+        "day46_problem03_string_algorithms_and_parsing.js",
+        "day46_problem04_string_algorithms_and_parsing.js",
+        "day46_problem05_string_algorithms_and_parsing.js"
       ]
     }
   ]
