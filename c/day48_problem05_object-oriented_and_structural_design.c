@@ -6,4 +6,11 @@
 
 #include <stdio.h>
 
-void solveProblem5(int arr[], int size);
+void solveProblem5(int arr[], int size) {
+    printf("--- Day %d Problem %d (C): %s ---\n", 48, 5, "Object-Oriented and Structural Design");
+    int sum = 0;
+    for(int i = 0; i < size; i++) {
+        if(arr[i] % 2 == 0) sum += arr[i] * 5;
+    }
+    printf("Computed Result Sum: %d\n", sum);
+}
