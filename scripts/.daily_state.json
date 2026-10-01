@@ -1,6 +1,6 @@
 {
-  "current_day": 48,
-  "lang_index": 47,
+  "current_day": 49,
+  "lang_index": 48,
   "history": [
     {
       "date": "2026-08-18",
@@ -586,6 +586,19 @@
         "day47_problem03_hash_maps_and_lookup_tables.ts",
         "day47_problem04_hash_maps_and_lookup_tables.ts",
         "day47_problem05_hash_maps_and_lookup_tables.ts"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "day": 48,
+      "language": "c",
+      "problems_count": 5,
+      "files": [
+        "day48_problem01_object-oriented_and_structural_design.c",
+        "day48_problem02_object-oriented_and_structural_design.c",
+        "day48_problem03_object-oriented_and_structural_design.c",
+        "day48_problem04_object-oriented_and_structural_design.c",
+        "day48_problem05_object-oriented_and_structural_design.c"
       ]
     }
   ]
