@@ -1,6 +1,6 @@
 {
-  "current_day": 49,
-  "lang_index": 48,
+  "current_day": 50,
+  "lang_index": 49,
   "history": [
     {
       "date": "2026-08-18",
@@ -599,6 +599,19 @@
         "day48_problem03_object-oriented_and_structural_design.c",
         "day48_problem04_object-oriented_and_structural_design.c",
         "day48_problem05_object-oriented_and_structural_design.c"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "day": 49,
+      "language": "cpp",
+      "problems_count": 5,
+      "files": [
+        "day49_problem01_recursion_and_divide-and-conquer.cpp",
+        "day49_problem02_recursion_and_divide-and-conquer.cpp",
+        "day49_problem03_recursion_and_divide-and-conquer.cpp",
+        "day49_problem04_recursion_and_divide-and-conquer.cpp",
+        "day49_problem05_recursion_and_divide-and-conquer.cpp"
       ]
     }
   ]
