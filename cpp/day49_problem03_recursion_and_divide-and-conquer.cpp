@@ -17,6 +17,8 @@ int main() {
         if(n % 2 == 0) evens.push_back(n * 3);
     }
     int sum = std::accumulate(evens.begin(), evens.end(), 0);
+    bool verified = !evens.empty() && sum > 0;
     std::cout << "Processed elements: " << evens.size() << " | Sum: " << sum << std::endl;
-    return 0;
+    std::cout << "Verification passed: " << std::boolalpha << verified << std::endl;
+    return verified ? 0 : 1;
 }
