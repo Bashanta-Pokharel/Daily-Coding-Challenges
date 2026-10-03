@@ -1,6 +1,6 @@
 {
-  "current_day": 50,
-  "lang_index": 49,
+  "current_day": 51,
+  "lang_index": 50,
   "history": [
     {
       "date": "2026-08-18",
@@ -612,6 +612,19 @@
         "day49_problem03_recursion_and_divide-and-conquer.cpp",
         "day49_problem04_recursion_and_divide-and-conquer.cpp",
         "day49_problem05_recursion_and_divide-and-conquer.cpp"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "day": 50,
+      "language": "csharp",
+      "problems_count": 5,
+      "files": [
+        "day50_problem01_binary_search_and_sliding_windows.cs",
+        "day50_problem02_binary_search_and_sliding_windows.cs",
+        "day50_problem03_binary_search_and_sliding_windows.cs",
+        "day50_problem04_binary_search_and_sliding_windows.cs",
+        "day50_problem05_binary_search_and_sliding_windows.cs"
       ]
     }
   ]
