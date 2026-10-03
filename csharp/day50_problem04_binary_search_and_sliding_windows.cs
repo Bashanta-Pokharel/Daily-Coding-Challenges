@@ -6,3 +6,5 @@
 
 // Implementation for Day 50 Problem 4 in C#
 // Topic: Binary Search and Sliding Windows
+
+// Test harness & execution verification
