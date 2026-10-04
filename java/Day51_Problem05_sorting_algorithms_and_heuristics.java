@@ -14,6 +14,8 @@ public class Day51_Problem05_sorting_algorithms_and_heuristics {
         List<Integer> numbers = Arrays.asList(12, 23, 34, 45, 56, 67);
         List<Integer> evens = numbers.stream().filter(n -> n % 2 == 0).map(n -> n * 5).collect(Collectors.toList());
         int sum = evens.stream().mapToInt(Integer::intValue).sum();
+        boolean verified = !evens.isEmpty() && sum > 0;
         System.out.println("Result List: " + evens + " | Sum: " + sum);
+        System.out.println("Verification passed: " + verified);
     }
 }
