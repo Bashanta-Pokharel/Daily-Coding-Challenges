@@ -1,6 +1,6 @@
 {
-  "current_day": 51,
-  "lang_index": 50,
+  "current_day": 52,
+  "lang_index": 51,
   "history": [
     {
       "date": "2026-08-18",
@@ -625,6 +625,19 @@
         "day50_problem03_binary_search_and_sliding_windows.cs",
         "day50_problem04_binary_search_and_sliding_windows.cs",
         "day50_problem05_binary_search_and_sliding_windows.cs"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "day": 51,
+      "language": "java",
+      "problems_count": 5,
+      "files": [
+        "Day51_Problem01_sorting_algorithms_and_heuristics.java",
+        "Day51_Problem02_sorting_algorithms_and_heuristics.java",
+        "Day51_Problem03_sorting_algorithms_and_heuristics.java",
+        "Day51_Problem04_sorting_algorithms_and_heuristics.java",
+        "Day51_Problem05_sorting_algorithms_and_heuristics.java"
       ]
     }
   ]
