@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 4 Scaffold for Kotlin
+// Implementation for Day 52 Problem 4 in Kotlin
+// Topic: Stacks and Queues Data Structures
