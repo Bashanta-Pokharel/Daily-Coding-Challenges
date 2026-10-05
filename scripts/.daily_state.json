@@ -1,6 +1,6 @@
 {
-  "current_day": 52,
-  "lang_index": 51,
+  "current_day": 53,
+  "lang_index": 52,
   "history": [
     {
       "date": "2026-08-18",
@@ -638,6 +638,19 @@
         "Day51_Problem03_sorting_algorithms_and_heuristics.java",
         "Day51_Problem04_sorting_algorithms_and_heuristics.java",
         "Day51_Problem05_sorting_algorithms_and_heuristics.java"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "day": 52,
+      "language": "kotlin",
+      "problems_count": 5,
+      "files": [
+        "day52_problem01_stacks_and_queues_data_structures.kt",
+        "day52_problem02_stacks_and_queues_data_structures.kt",
+        "day52_problem03_stacks_and_queues_data_structures.kt",
+        "day52_problem04_stacks_and_queues_data_structures.kt",
+        "day52_problem05_stacks_and_queues_data_structures.kt"
       ]
     }
   ]
