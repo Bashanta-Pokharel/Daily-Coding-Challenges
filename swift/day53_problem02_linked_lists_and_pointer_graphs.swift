@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for Swift
+// Implementation for Day 53 Problem 2 in Swift
+// Topic: Linked Lists and Pointer Graphs
