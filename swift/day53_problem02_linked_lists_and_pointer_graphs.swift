@@ -6,3 +6,5 @@
 
 // Implementation for Day 53 Problem 2 in Swift
 // Topic: Linked Lists and Pointer Graphs
+
+// Test harness & execution verification
