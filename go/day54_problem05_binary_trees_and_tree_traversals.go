@@ -26,3 +26,5 @@ func main() {
     count, total := solveProblem5(data)
     fmt.Printf("Even Count: %d, Scaled Total: %d\n", count, total)
 }
+
+// Time Complexity: O(N), Space Complexity: O(1)
