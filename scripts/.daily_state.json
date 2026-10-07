@@ -1,6 +1,6 @@
 {
-  "current_day": 54,
-  "lang_index": 53,
+  "current_day": 55,
+  "lang_index": 54,
   "history": [
     {
       "date": "2026-08-18",
@@ -664,6 +664,19 @@
         "day53_problem03_linked_lists_and_pointer_graphs.swift",
         "day53_problem04_linked_lists_and_pointer_graphs.swift",
         "day53_problem05_linked_lists_and_pointer_graphs.swift"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "day": 54,
+      "language": "go",
+      "problems_count": 5,
+      "files": [
+        "day54_problem01_binary_trees_and_tree_traversals.go",
+        "day54_problem02_binary_trees_and_tree_traversals.go",
+        "day54_problem03_binary_trees_and_tree_traversals.go",
+        "day54_problem04_binary_trees_and_tree_traversals.go",
+        "day54_problem05_binary_trees_and_tree_traversals.go"
       ]
     }
   ]
