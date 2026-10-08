@@ -1,6 +1,6 @@
 {
-  "current_day": 55,
-  "lang_index": 54,
+  "current_day": 56,
+  "lang_index": 55,
   "history": [
     {
       "date": "2026-08-18",
@@ -677,6 +677,19 @@
         "day54_problem03_binary_trees_and_tree_traversals.go",
         "day54_problem04_binary_trees_and_tree_traversals.go",
         "day54_problem05_binary_trees_and_tree_traversals.go"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "day": 55,
+      "language": "rust",
+      "problems_count": 5,
+      "files": [
+        "day55_problem01_graph_algorithms_bfs_and_dfs.rs",
+        "day55_problem02_graph_algorithms_bfs_and_dfs.rs",
+        "day55_problem03_graph_algorithms_bfs_and_dfs.rs",
+        "day55_problem04_graph_algorithms_bfs_and_dfs.rs",
+        "day55_problem05_graph_algorithms_bfs_and_dfs.rs"
       ]
     }
   ]
