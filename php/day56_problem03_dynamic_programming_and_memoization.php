@@ -6,3 +6,5 @@
 
 // Implementation for Day 56 Problem 3 in PHP
 // Topic: Dynamic Programming and Memoization
+
+// Test harness & execution verification
