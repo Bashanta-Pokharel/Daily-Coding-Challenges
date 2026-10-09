@@ -1,6 +1,6 @@
 {
-  "current_day": 56,
-  "lang_index": 55,
+  "current_day": 57,
+  "lang_index": 56,
   "history": [
     {
       "date": "2026-08-18",
@@ -690,6 +690,19 @@
         "day55_problem03_graph_algorithms_bfs_and_dfs.rs",
         "day55_problem04_graph_algorithms_bfs_and_dfs.rs",
         "day55_problem05_graph_algorithms_bfs_and_dfs.rs"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "day": 56,
+      "language": "php",
+      "problems_count": 5,
+      "files": [
+        "day56_problem01_dynamic_programming_and_memoization.php",
+        "day56_problem02_dynamic_programming_and_memoization.php",
+        "day56_problem03_dynamic_programming_and_memoization.php",
+        "day56_problem04_dynamic_programming_and_memoization.php",
+        "day56_problem05_dynamic_programming_and_memoization.php"
       ]
     }
   ]
