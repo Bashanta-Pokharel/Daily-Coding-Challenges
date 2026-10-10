@@ -1,6 +1,6 @@
 {
-  "current_day": 57,
-  "lang_index": 56,
+  "current_day": 58,
+  "lang_index": 57,
   "history": [
     {
       "date": "2026-08-18",
@@ -703,6 +703,19 @@
         "day56_problem03_dynamic_programming_and_memoization.php",
         "day56_problem04_dynamic_programming_and_memoization.php",
         "day56_problem05_dynamic_programming_and_memoization.php"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "day": 57,
+      "language": "ruby",
+      "problems_count": 5,
+      "files": [
+        "day57_problem01_bitwise_manipulation_and_masking.rb",
+        "day57_problem02_bitwise_manipulation_and_masking.rb",
+        "day57_problem03_bitwise_manipulation_and_masking.rb",
+        "day57_problem04_bitwise_manipulation_and_masking.rb",
+        "day57_problem05_bitwise_manipulation_and_masking.rb"
       ]
     }
   ]
