@@ -6,3 +6,5 @@
 
 # Implementation for Day 57 Problem 4 in Ruby
 # Topic: Bitwise Manipulation and Masking
+
+# Test harness & execution verification
