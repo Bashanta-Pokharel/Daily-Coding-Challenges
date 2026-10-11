@@ -1,6 +1,6 @@
 {
-  "current_day": 58,
-  "lang_index": 57,
+  "current_day": 59,
+  "lang_index": 58,
   "history": [
     {
       "date": "2026-08-18",
@@ -716,6 +716,19 @@
         "day57_problem03_bitwise_manipulation_and_masking.rb",
         "day57_problem04_bitwise_manipulation_and_masking.rb",
         "day57_problem05_bitwise_manipulation_and_masking.rb"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "day": 58,
+      "language": "dart",
+      "problems_count": 5,
+      "files": [
+        "day58_problem01_concurrency_and_async_pipelines.dart",
+        "day58_problem02_concurrency_and_async_pipelines.dart",
+        "day58_problem03_concurrency_and_async_pipelines.dart",
+        "day58_problem04_concurrency_and_async_pipelines.dart",
+        "day58_problem05_concurrency_and_async_pipelines.dart"
       ]
     }
   ]
