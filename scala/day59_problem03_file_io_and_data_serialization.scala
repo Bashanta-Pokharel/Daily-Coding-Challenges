@@ -6,3 +6,5 @@
 
 // Implementation for Day 59 Problem 3 in Scala
 // Topic: File IO and Data Serialization
+
+// Test harness & execution verification
