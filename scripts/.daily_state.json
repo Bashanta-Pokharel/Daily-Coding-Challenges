@@ -1,6 +1,6 @@
 {
-  "current_day": 59,
-  "lang_index": 58,
+  "current_day": 60,
+  "lang_index": 59,
   "history": [
     {
       "date": "2026-08-18",
@@ -729,6 +729,19 @@
         "day58_problem03_concurrency_and_async_pipelines.dart",
         "day58_problem04_concurrency_and_async_pipelines.dart",
         "day58_problem05_concurrency_and_async_pipelines.dart"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "day": 59,
+      "language": "scala",
+      "problems_count": 5,
+      "files": [
+        "day59_problem01_file_io_and_data_serialization.scala",
+        "day59_problem02_file_io_and_data_serialization.scala",
+        "day59_problem03_file_io_and_data_serialization.scala",
+        "day59_problem04_file_io_and_data_serialization.scala",
+        "day59_problem05_file_io_and_data_serialization.scala"
       ]
     }
   ]
