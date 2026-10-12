@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 3 Scaffold for Scala
+// Implementation for Day 59 Problem 3 in Scala
+// Topic: File IO and Data Serialization
