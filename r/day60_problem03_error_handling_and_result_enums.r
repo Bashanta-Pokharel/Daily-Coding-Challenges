@@ -6,3 +6,5 @@
 
 # Implementation for Day 60 Problem 3 in R
 # Topic: Error Handling and Result Enums
+
+# Test harness & execution verification
