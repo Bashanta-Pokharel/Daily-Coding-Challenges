@@ -1,6 +1,6 @@
 {
-  "current_day": 60,
-  "lang_index": 59,
+  "current_day": 61,
+  "lang_index": 60,
   "history": [
     {
       "date": "2026-08-18",
@@ -742,6 +742,19 @@
         "day59_problem03_file_io_and_data_serialization.scala",
         "day59_problem04_file_io_and_data_serialization.scala",
         "day59_problem05_file_io_and_data_serialization.scala"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "day": 60,
+      "language": "r",
+      "problems_count": 5,
+      "files": [
+        "day60_problem01_error_handling_and_result_enums.r",
+        "day60_problem02_error_handling_and_result_enums.r",
+        "day60_problem03_error_handling_and_result_enums.r",
+        "day60_problem04_error_handling_and_result_enums.r",
+        "day60_problem05_error_handling_and_result_enums.r"
       ]
     }
   ]
