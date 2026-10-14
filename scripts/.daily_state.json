@@ -1,6 +1,6 @@
 {
-  "current_day": 61,
-  "lang_index": 60,
+  "current_day": 62,
+  "lang_index": 61,
   "history": [
     {
       "date": "2026-08-18",
@@ -755,6 +755,19 @@
         "day60_problem03_error_handling_and_result_enums.r",
         "day60_problem04_error_handling_and_result_enums.r",
         "day60_problem05_error_handling_and_result_enums.r"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "day": 61,
+      "language": "bash",
+      "problems_count": 5,
+      "files": [
+        "day61_problem01_variables.sh",
+        "day61_problem02_variables.sh",
+        "day61_problem03_variables.sh",
+        "day61_problem04_variables.sh",
+        "day61_problem05_variables.sh"
       ]
     }
   ]
