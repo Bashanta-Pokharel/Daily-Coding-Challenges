@@ -6,3 +6,5 @@
 
 # Implementation for Day 61 Problem 5 in Bash
 # Topic: Variables, Types and Memory Models
+
+# Test harness & execution verification
