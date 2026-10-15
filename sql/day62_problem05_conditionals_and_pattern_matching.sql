@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 5 Scaffold for SQL
+-- Implementation for Day 62 Problem 5 in SQL
+-- Topic: Conditionals and Pattern Matching
