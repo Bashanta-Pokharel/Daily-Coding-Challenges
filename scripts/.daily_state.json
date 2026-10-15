@@ -1,6 +1,6 @@
 {
-  "current_day": 62,
-  "lang_index": 61,
+  "current_day": 63,
+  "lang_index": 62,
   "history": [
     {
       "date": "2026-08-18",
@@ -768,6 +768,19 @@
         "day61_problem03_variables.sh",
         "day61_problem04_variables.sh",
         "day61_problem05_variables.sh"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "day": 62,
+      "language": "sql",
+      "problems_count": 5,
+      "files": [
+        "day62_problem01_conditionals_and_pattern_matching.sql",
+        "day62_problem02_conditionals_and_pattern_matching.sql",
+        "day62_problem03_conditionals_and_pattern_matching.sql",
+        "day62_problem04_conditionals_and_pattern_matching.sql",
+        "day62_problem05_conditionals_and_pattern_matching.sql"
       ]
     }
   ]
