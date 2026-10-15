@@ -6,3 +6,5 @@
 
 -- Implementation for Day 62 Problem 2 in SQL
 -- Topic: Conditionals and Pattern Matching
+
+-- Test harness & execution verification
