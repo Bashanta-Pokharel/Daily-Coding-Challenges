@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 2 Scaffold for Lua
+-- Implementation for Day 63 Problem 2 in Lua
+-- Topic: Loops and Iterative Algorithms
