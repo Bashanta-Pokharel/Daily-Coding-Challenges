@@ -6,3 +6,5 @@
 
 -- Implementation for Day 63 Problem 3 in Lua
 -- Topic: Loops and Iterative Algorithms
+
+-- Test harness & execution verification
