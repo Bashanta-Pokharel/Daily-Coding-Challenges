@@ -8,3 +8,5 @@
 -- Topic: Loops and Iterative Algorithms
 
 -- Test harness & execution verification
+
+-- Time Complexity: O(N), Space Complexity: O(1)
