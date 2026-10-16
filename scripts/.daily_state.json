@@ -1,6 +1,6 @@
 {
-  "current_day": 63,
-  "lang_index": 62,
+  "current_day": 64,
+  "lang_index": 63,
   "history": [
     {
       "date": "2026-08-18",
@@ -781,6 +781,19 @@
         "day62_problem03_conditionals_and_pattern_matching.sql",
         "day62_problem04_conditionals_and_pattern_matching.sql",
         "day62_problem05_conditionals_and_pattern_matching.sql"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "day": 63,
+      "language": "lua",
+      "problems_count": 5,
+      "files": [
+        "day63_problem01_loops_and_iterative_algorithms.lua",
+        "day63_problem02_loops_and_iterative_algorithms.lua",
+        "day63_problem03_loops_and_iterative_algorithms.lua",
+        "day63_problem04_loops_and_iterative_algorithms.lua",
+        "day63_problem05_loops_and_iterative_algorithms.lua"
       ]
     }
   ]
