@@ -1,6 +1,6 @@
 {
-  "current_day": 64,
-  "lang_index": 63,
+  "current_day": 65,
+  "lang_index": 64,
   "history": [
     {
       "date": "2026-08-18",
@@ -794,6 +794,19 @@
         "day63_problem03_loops_and_iterative_algorithms.lua",
         "day63_problem04_loops_and_iterative_algorithms.lua",
         "day63_problem05_loops_and_iterative_algorithms.lua"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "day": 64,
+      "language": "julia",
+      "problems_count": 5,
+      "files": [
+        "day64_problem01_functions.jl",
+        "day64_problem02_functions.jl",
+        "day64_problem03_functions.jl",
+        "day64_problem04_functions.jl",
+        "day64_problem05_functions.jl"
       ]
     }
   ]
