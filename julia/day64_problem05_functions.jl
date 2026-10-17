@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 5 Scaffold for Julia
+# Implementation for Day 64 Problem 5 in Julia
+# Topic: Functions, Closures and Lambdas
