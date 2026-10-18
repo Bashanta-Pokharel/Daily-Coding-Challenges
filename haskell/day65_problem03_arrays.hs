@@ -6,3 +6,5 @@
 
 -- Implementation for Day 65 Problem 3 in Haskell
 -- Topic: Arrays, Slices and Dynamic Buffers
+
+-- Test harness & execution verification
