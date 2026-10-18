@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 2 Scaffold for Haskell
+-- Implementation for Day 65 Problem 2 in Haskell
+-- Topic: Arrays, Slices and Dynamic Buffers
