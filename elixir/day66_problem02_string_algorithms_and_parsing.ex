@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 2 Scaffold for Elixir
+# Implementation for Day 66 Problem 2 in Elixir
+# Topic: String Algorithms and Parsing
