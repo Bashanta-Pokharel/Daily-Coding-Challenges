@@ -6,3 +6,5 @@
 
 # Implementation for Day 66 Problem 3 in Elixir
 # Topic: String Algorithms and Parsing
+
+# Test harness & execution verification
