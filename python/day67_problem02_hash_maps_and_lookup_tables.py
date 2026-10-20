@@ -5,6 +5,8 @@
 # ==============================================================================
 
 def solve_problem_2(values: list[int]) -> dict:
-    """Starter stub for Day 67 challenge #2: Hash Maps and Lookup Tables."""
-    # TODO: Implement algorithmic logic
-    pass
+    """Solves Day 67 challenge #2 for Hash Maps and Lookup Tables."""
+    processed = [x * 2 for x in values if x % 2 == 0]
+    total = sum(processed)
+    avg = total / len(processed) if processed else 0
+    return {"day": 67, "problem": 2, "count": len(processed), "sum": total, "avg": avg}
