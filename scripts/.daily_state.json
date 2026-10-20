@@ -1,6 +1,6 @@
 {
-  "current_day": 67,
-  "lang_index": 66,
+  "current_day": 68,
+  "lang_index": 67,
   "history": [
     {
       "date": "2026-08-18",
@@ -833,6 +833,19 @@
         "day66_problem03_string_algorithms_and_parsing.ex",
         "day66_problem04_string_algorithms_and_parsing.ex",
         "day66_problem05_string_algorithms_and_parsing.ex"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "day": 67,
+      "language": "python",
+      "problems_count": 5,
+      "files": [
+        "day67_problem01_hash_maps_and_lookup_tables.py",
+        "day67_problem02_hash_maps_and_lookup_tables.py",
+        "day67_problem03_hash_maps_and_lookup_tables.py",
+        "day67_problem04_hash_maps_and_lookup_tables.py",
+        "day67_problem05_hash_maps_and_lookup_tables.py"
       ]
     }
   ]
