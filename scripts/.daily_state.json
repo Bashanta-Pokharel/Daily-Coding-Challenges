@@ -1,6 +1,6 @@
 {
-  "current_day": 68,
-  "lang_index": 67,
+  "current_day": 69,
+  "lang_index": 68,
   "history": [
     {
       "date": "2026-08-18",
@@ -846,6 +846,19 @@
         "day67_problem03_hash_maps_and_lookup_tables.py",
         "day67_problem04_hash_maps_and_lookup_tables.py",
         "day67_problem05_hash_maps_and_lookup_tables.py"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "day": 68,
+      "language": "javascript",
+      "problems_count": 5,
+      "files": [
+        "day68_problem01_object-oriented_and_structural_design.js",
+        "day68_problem02_object-oriented_and_structural_design.js",
+        "day68_problem03_object-oriented_and_structural_design.js",
+        "day68_problem04_object-oriented_and_structural_design.js",
+        "day68_problem05_object-oriented_and_structural_design.js"
       ]
     }
   ]
