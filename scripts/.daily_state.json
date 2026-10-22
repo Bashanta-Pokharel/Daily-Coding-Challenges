@@ -1,6 +1,6 @@
 {
-  "current_day": 69,
-  "lang_index": 68,
+  "current_day": 70,
+  "lang_index": 69,
   "history": [
     {
       "date": "2026-08-18",
@@ -859,6 +859,19 @@
         "day68_problem03_object-oriented_and_structural_design.js",
         "day68_problem04_object-oriented_and_structural_design.js",
         "day68_problem05_object-oriented_and_structural_design.js"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "day": 69,
+      "language": "typescript",
+      "problems_count": 5,
+      "files": [
+        "day69_problem01_recursion_and_divide-and-conquer.ts",
+        "day69_problem02_recursion_and_divide-and-conquer.ts",
+        "day69_problem03_recursion_and_divide-and-conquer.ts",
+        "day69_problem04_recursion_and_divide-and-conquer.ts",
+        "day69_problem05_recursion_and_divide-and-conquer.ts"
       ]
     }
   ]
