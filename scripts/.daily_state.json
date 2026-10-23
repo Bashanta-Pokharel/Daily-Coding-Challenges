@@ -1,6 +1,6 @@
 {
-  "current_day": 70,
-  "lang_index": 69,
+  "current_day": 71,
+  "lang_index": 70,
   "history": [
     {
       "date": "2026-08-18",
@@ -872,6 +872,19 @@
         "day69_problem03_recursion_and_divide-and-conquer.ts",
         "day69_problem04_recursion_and_divide-and-conquer.ts",
         "day69_problem05_recursion_and_divide-and-conquer.ts"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "day": 70,
+      "language": "c",
+      "problems_count": 5,
+      "files": [
+        "day70_problem01_binary_search_and_sliding_windows.c",
+        "day70_problem02_binary_search_and_sliding_windows.c",
+        "day70_problem03_binary_search_and_sliding_windows.c",
+        "day70_problem04_binary_search_and_sliding_windows.c",
+        "day70_problem05_binary_search_and_sliding_windows.c"
       ]
     }
   ]
