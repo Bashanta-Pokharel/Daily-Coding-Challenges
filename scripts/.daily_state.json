@@ -1,6 +1,6 @@
 {
-  "current_day": 71,
-  "lang_index": 70,
+  "current_day": 72,
+  "lang_index": 71,
   "history": [
     {
       "date": "2026-08-18",
@@ -885,6 +885,19 @@
         "day70_problem03_binary_search_and_sliding_windows.c",
         "day70_problem04_binary_search_and_sliding_windows.c",
         "day70_problem05_binary_search_and_sliding_windows.c"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "day": 71,
+      "language": "cpp",
+      "problems_count": 5,
+      "files": [
+        "day71_problem01_sorting_algorithms_and_heuristics.cpp",
+        "day71_problem02_sorting_algorithms_and_heuristics.cpp",
+        "day71_problem03_sorting_algorithms_and_heuristics.cpp",
+        "day71_problem04_sorting_algorithms_and_heuristics.cpp",
+        "day71_problem05_sorting_algorithms_and_heuristics.cpp"
       ]
     }
   ]
