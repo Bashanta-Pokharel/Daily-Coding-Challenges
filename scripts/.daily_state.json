@@ -1,6 +1,6 @@
 {
-  "current_day": 72,
-  "lang_index": 71,
+  "current_day": 73,
+  "lang_index": 72,
   "history": [
     {
       "date": "2026-08-18",
@@ -898,6 +898,19 @@
         "day71_problem03_sorting_algorithms_and_heuristics.cpp",
         "day71_problem04_sorting_algorithms_and_heuristics.cpp",
         "day71_problem05_sorting_algorithms_and_heuristics.cpp"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "day": 72,
+      "language": "csharp",
+      "problems_count": 5,
+      "files": [
+        "day72_problem01_stacks_and_queues_data_structures.cs",
+        "day72_problem02_stacks_and_queues_data_structures.cs",
+        "day72_problem03_stacks_and_queues_data_structures.cs",
+        "day72_problem04_stacks_and_queues_data_structures.cs",
+        "day72_problem05_stacks_and_queues_data_structures.cs"
       ]
     }
   ]
