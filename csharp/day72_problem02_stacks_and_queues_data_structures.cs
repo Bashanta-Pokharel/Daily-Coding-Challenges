@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for C#
+// Implementation for Day 72 Problem 2 in C#
+// Topic: Stacks and Queues Data Structures
