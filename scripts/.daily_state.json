@@ -1,6 +1,6 @@
 {
-  "current_day": 73,
-  "lang_index": 72,
+  "current_day": 74,
+  "lang_index": 73,
   "history": [
     {
       "date": "2026-08-18",
@@ -911,6 +911,19 @@
         "day72_problem03_stacks_and_queues_data_structures.cs",
         "day72_problem04_stacks_and_queues_data_structures.cs",
         "day72_problem05_stacks_and_queues_data_structures.cs"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "day": 73,
+      "language": "java",
+      "problems_count": 5,
+      "files": [
+        "Day73_Problem01_linked_lists_and_pointer_graphs.java",
+        "Day73_Problem02_linked_lists_and_pointer_graphs.java",
+        "Day73_Problem03_linked_lists_and_pointer_graphs.java",
+        "Day73_Problem04_linked_lists_and_pointer_graphs.java",
+        "Day73_Problem05_linked_lists_and_pointer_graphs.java"
       ]
     }
   ]
