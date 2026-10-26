@@ -19,3 +19,5 @@ public class Day73_Problem05_linked_lists_and_pointer_graphs {
         System.out.println("Verification passed: " + verified);
     }
 }
+
+// Complexity: O(N) time, O(N) space
