@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 1 Scaffold for Kotlin
+// Implementation for Day 74 Problem 1 in Kotlin
+// Topic: Binary Trees and Tree Traversals
