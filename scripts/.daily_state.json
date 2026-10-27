@@ -1,6 +1,6 @@
 {
-  "current_day": 74,
-  "lang_index": 73,
+  "current_day": 75,
+  "lang_index": 74,
   "history": [
     {
       "date": "2026-08-18",
@@ -924,6 +924,19 @@
         "Day73_Problem03_linked_lists_and_pointer_graphs.java",
         "Day73_Problem04_linked_lists_and_pointer_graphs.java",
         "Day73_Problem05_linked_lists_and_pointer_graphs.java"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "day": 74,
+      "language": "kotlin",
+      "problems_count": 5,
+      "files": [
+        "day74_problem01_binary_trees_and_tree_traversals.kt",
+        "day74_problem02_binary_trees_and_tree_traversals.kt",
+        "day74_problem03_binary_trees_and_tree_traversals.kt",
+        "day74_problem04_binary_trees_and_tree_traversals.kt",
+        "day74_problem05_binary_trees_and_tree_traversals.kt"
       ]
     }
   ]
