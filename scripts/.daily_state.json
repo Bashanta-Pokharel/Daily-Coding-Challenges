@@ -1,6 +1,6 @@
 {
-  "current_day": 75,
-  "lang_index": 74,
+  "current_day": 76,
+  "lang_index": 75,
   "history": [
     {
       "date": "2026-08-18",
@@ -937,6 +937,19 @@
         "day74_problem03_binary_trees_and_tree_traversals.kt",
         "day74_problem04_binary_trees_and_tree_traversals.kt",
         "day74_problem05_binary_trees_and_tree_traversals.kt"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "day": 75,
+      "language": "swift",
+      "problems_count": 5,
+      "files": [
+        "day75_problem01_graph_algorithms_bfs_and_dfs.swift",
+        "day75_problem02_graph_algorithms_bfs_and_dfs.swift",
+        "day75_problem03_graph_algorithms_bfs_and_dfs.swift",
+        "day75_problem04_graph_algorithms_bfs_and_dfs.swift",
+        "day75_problem05_graph_algorithms_bfs_and_dfs.swift"
       ]
     }
   ]
