@@ -19,3 +19,10 @@ func solveProblem1(numbers []int) (int, int) {
     }
     return count, sum
 }
+
+func main() {
+    fmt.Println("--- Day 76 Problem 1 (Go): Dynamic Programming and Memoization ---")
+    data := []int{10, 23, 34, 45, 56, 67}
+    count, total := solveProblem1(data)
+    fmt.Printf("Even Count: %d, Scaled Total: %d\n", count, total)
+}
