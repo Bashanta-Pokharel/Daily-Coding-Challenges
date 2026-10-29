@@ -1,6 +1,6 @@
 {
-  "current_day": 76,
-  "lang_index": 75,
+  "current_day": 77,
+  "lang_index": 76,
   "history": [
     {
       "date": "2026-08-18",
@@ -950,6 +950,19 @@
         "day75_problem03_graph_algorithms_bfs_and_dfs.swift",
         "day75_problem04_graph_algorithms_bfs_and_dfs.swift",
         "day75_problem05_graph_algorithms_bfs_and_dfs.swift"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "day": 76,
+      "language": "go",
+      "problems_count": 5,
+      "files": [
+        "day76_problem01_dynamic_programming_and_memoization.go",
+        "day76_problem02_dynamic_programming_and_memoization.go",
+        "day76_problem03_dynamic_programming_and_memoization.go",
+        "day76_problem04_dynamic_programming_and_memoization.go",
+        "day76_problem05_dynamic_programming_and_memoization.go"
       ]
     }
   ]
