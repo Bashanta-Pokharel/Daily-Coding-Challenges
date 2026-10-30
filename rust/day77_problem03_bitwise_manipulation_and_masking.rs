@@ -13,3 +13,5 @@ fn main() {
     println!("Evens: {:?}, Sum: {}", evens, sum);
     println!("Verification passed: {}", verified);
 }
+
+// Time: O(N), Space: O(N)
