@@ -1,6 +1,6 @@
 {
-  "current_day": 77,
-  "lang_index": 76,
+  "current_day": 78,
+  "lang_index": 77,
   "history": [
     {
       "date": "2026-08-18",
@@ -963,6 +963,19 @@
         "day76_problem03_dynamic_programming_and_memoization.go",
         "day76_problem04_dynamic_programming_and_memoization.go",
         "day76_problem05_dynamic_programming_and_memoization.go"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "day": 77,
+      "language": "rust",
+      "problems_count": 5,
+      "files": [
+        "day77_problem01_bitwise_manipulation_and_masking.rs",
+        "day77_problem02_bitwise_manipulation_and_masking.rs",
+        "day77_problem03_bitwise_manipulation_and_masking.rs",
+        "day77_problem04_bitwise_manipulation_and_masking.rs",
+        "day77_problem05_bitwise_manipulation_and_masking.rs"
       ]
     }
   ]
