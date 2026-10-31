@@ -1,6 +1,6 @@
 {
-  "current_day": 78,
-  "lang_index": 77,
+  "current_day": 79,
+  "lang_index": 78,
   "history": [
     {
       "date": "2026-08-18",
@@ -976,6 +976,19 @@
         "day77_problem03_bitwise_manipulation_and_masking.rs",
         "day77_problem04_bitwise_manipulation_and_masking.rs",
         "day77_problem05_bitwise_manipulation_and_masking.rs"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "day": 78,
+      "language": "php",
+      "problems_count": 5,
+      "files": [
+        "day78_problem01_concurrency_and_async_pipelines.php",
+        "day78_problem02_concurrency_and_async_pipelines.php",
+        "day78_problem03_concurrency_and_async_pipelines.php",
+        "day78_problem04_concurrency_and_async_pipelines.php",
+        "day78_problem05_concurrency_and_async_pipelines.php"
       ]
     }
   ]
