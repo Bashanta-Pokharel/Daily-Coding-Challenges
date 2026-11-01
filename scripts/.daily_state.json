@@ -1,6 +1,6 @@
 {
-  "current_day": 79,
-  "lang_index": 78,
+  "current_day": 80,
+  "lang_index": 79,
   "history": [
     {
       "date": "2026-08-18",
@@ -989,6 +989,19 @@
         "day78_problem03_concurrency_and_async_pipelines.php",
         "day78_problem04_concurrency_and_async_pipelines.php",
         "day78_problem05_concurrency_and_async_pipelines.php"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "day": 79,
+      "language": "ruby",
+      "problems_count": 5,
+      "files": [
+        "day79_problem01_file_io_and_data_serialization.rb",
+        "day79_problem02_file_io_and_data_serialization.rb",
+        "day79_problem03_file_io_and_data_serialization.rb",
+        "day79_problem04_file_io_and_data_serialization.rb",
+        "day79_problem05_file_io_and_data_serialization.rb"
       ]
     }
   ]
