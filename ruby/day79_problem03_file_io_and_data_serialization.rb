@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 3 Scaffold for Ruby
+# Implementation for Day 79 Problem 3 in Ruby
+# Topic: File IO and Data Serialization
