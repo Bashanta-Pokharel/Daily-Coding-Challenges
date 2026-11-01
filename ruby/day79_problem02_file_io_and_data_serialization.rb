@@ -6,3 +6,5 @@
 
 # Implementation for Day 79 Problem 2 in Ruby
 # Topic: File IO and Data Serialization
+
+# Test harness & execution verification
