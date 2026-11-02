@@ -1,6 +1,6 @@
 {
-  "current_day": 80,
-  "lang_index": 79,
+  "current_day": 81,
+  "lang_index": 80,
   "history": [
     {
       "date": "2026-08-18",
@@ -1002,6 +1002,19 @@
         "day79_problem03_file_io_and_data_serialization.rb",
         "day79_problem04_file_io_and_data_serialization.rb",
         "day79_problem05_file_io_and_data_serialization.rb"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "day": 80,
+      "language": "dart",
+      "problems_count": 5,
+      "files": [
+        "day80_problem01_error_handling_and_result_enums.dart",
+        "day80_problem02_error_handling_and_result_enums.dart",
+        "day80_problem03_error_handling_and_result_enums.dart",
+        "day80_problem04_error_handling_and_result_enums.dart",
+        "day80_problem05_error_handling_and_result_enums.dart"
       ]
     }
   ]
