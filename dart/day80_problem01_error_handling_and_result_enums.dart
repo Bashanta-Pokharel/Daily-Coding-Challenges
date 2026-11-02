@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 1 Scaffold for Dart
+// Implementation for Day 80 Problem 1 in Dart
+// Topic: Error Handling and Result Enums
