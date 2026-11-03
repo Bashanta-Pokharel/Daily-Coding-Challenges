@@ -6,3 +6,5 @@
 
 // Implementation for Day 81 Problem 2 in Scala
 // Topic: Variables, Types and Memory Models
+
+// Test harness & execution verification
