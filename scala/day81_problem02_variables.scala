@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for Scala
+// Implementation for Day 81 Problem 2 in Scala
+// Topic: Variables, Types and Memory Models
