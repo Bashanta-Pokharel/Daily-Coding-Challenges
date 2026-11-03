@@ -1,6 +1,6 @@
 {
-  "current_day": 81,
-  "lang_index": 80,
+  "current_day": 82,
+  "lang_index": 81,
   "history": [
     {
       "date": "2026-08-18",
@@ -1015,6 +1015,19 @@
         "day80_problem03_error_handling_and_result_enums.dart",
         "day80_problem04_error_handling_and_result_enums.dart",
         "day80_problem05_error_handling_and_result_enums.dart"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "day": 81,
+      "language": "scala",
+      "problems_count": 5,
+      "files": [
+        "day81_problem01_variables.scala",
+        "day81_problem02_variables.scala",
+        "day81_problem03_variables.scala",
+        "day81_problem04_variables.scala",
+        "day81_problem05_variables.scala"
       ]
     }
   ]
