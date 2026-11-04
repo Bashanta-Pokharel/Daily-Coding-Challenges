@@ -1,6 +1,6 @@
 {
-  "current_day": 82,
-  "lang_index": 81,
+  "current_day": 83,
+  "lang_index": 82,
   "history": [
     {
       "date": "2026-08-18",
@@ -1028,6 +1028,19 @@
         "day81_problem03_variables.scala",
         "day81_problem04_variables.scala",
         "day81_problem05_variables.scala"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "day": 82,
+      "language": "r",
+      "problems_count": 5,
+      "files": [
+        "day82_problem01_conditionals_and_pattern_matching.r",
+        "day82_problem02_conditionals_and_pattern_matching.r",
+        "day82_problem03_conditionals_and_pattern_matching.r",
+        "day82_problem04_conditionals_and_pattern_matching.r",
+        "day82_problem05_conditionals_and_pattern_matching.r"
       ]
     }
   ]
