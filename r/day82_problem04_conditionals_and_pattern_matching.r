@@ -6,3 +6,5 @@
 
 # Implementation for Day 82 Problem 4 in R
 # Topic: Conditionals and Pattern Matching
+
+# Test harness & execution verification
