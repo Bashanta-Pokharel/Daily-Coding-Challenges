@@ -6,3 +6,5 @@
 
 # Implementation for Day 83 Problem 3 in Bash
 # Topic: Loops and Iterative Algorithms
+
+# Test harness & execution verification
