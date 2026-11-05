@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 4 Scaffold for Bash
+# Implementation for Day 83 Problem 4 in Bash
+# Topic: Loops and Iterative Algorithms
