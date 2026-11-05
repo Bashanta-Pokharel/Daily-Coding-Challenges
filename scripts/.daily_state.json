@@ -1,6 +1,6 @@
 {
-  "current_day": 83,
-  "lang_index": 82,
+  "current_day": 84,
+  "lang_index": 83,
   "history": [
     {
       "date": "2026-08-18",
@@ -1041,6 +1041,19 @@
         "day82_problem03_conditionals_and_pattern_matching.r",
         "day82_problem04_conditionals_and_pattern_matching.r",
         "day82_problem05_conditionals_and_pattern_matching.r"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "day": 83,
+      "language": "bash",
+      "problems_count": 5,
+      "files": [
+        "day83_problem01_loops_and_iterative_algorithms.sh",
+        "day83_problem02_loops_and_iterative_algorithms.sh",
+        "day83_problem03_loops_and_iterative_algorithms.sh",
+        "day83_problem04_loops_and_iterative_algorithms.sh",
+        "day83_problem05_loops_and_iterative_algorithms.sh"
       ]
     }
   ]
