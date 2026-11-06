@@ -1,6 +1,6 @@
 {
-  "current_day": 84,
-  "lang_index": 83,
+  "current_day": 85,
+  "lang_index": 84,
   "history": [
     {
       "date": "2026-08-18",
@@ -1054,6 +1054,19 @@
         "day83_problem03_loops_and_iterative_algorithms.sh",
         "day83_problem04_loops_and_iterative_algorithms.sh",
         "day83_problem05_loops_and_iterative_algorithms.sh"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "day": 84,
+      "language": "sql",
+      "problems_count": 5,
+      "files": [
+        "day84_problem01_functions.sql",
+        "day84_problem02_functions.sql",
+        "day84_problem03_functions.sql",
+        "day84_problem04_functions.sql",
+        "day84_problem05_functions.sql"
       ]
     }
   ]
