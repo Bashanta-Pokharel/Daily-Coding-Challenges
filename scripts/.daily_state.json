@@ -1,6 +1,6 @@
 {
-  "current_day": 85,
-  "lang_index": 84,
+  "current_day": 86,
+  "lang_index": 85,
   "history": [
     {
       "date": "2026-08-18",
@@ -1067,6 +1067,19 @@
         "day84_problem03_functions.sql",
         "day84_problem04_functions.sql",
         "day84_problem05_functions.sql"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "day": 85,
+      "language": "lua",
+      "problems_count": 5,
+      "files": [
+        "day85_problem01_arrays.lua",
+        "day85_problem02_arrays.lua",
+        "day85_problem03_arrays.lua",
+        "day85_problem04_arrays.lua",
+        "day85_problem05_arrays.lua"
       ]
     }
   ]
