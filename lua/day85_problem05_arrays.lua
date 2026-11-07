@@ -6,3 +6,5 @@
 
 -- Implementation for Day 85 Problem 5 in Lua
 -- Topic: Arrays, Slices and Dynamic Buffers
+
+-- Test harness & execution verification
