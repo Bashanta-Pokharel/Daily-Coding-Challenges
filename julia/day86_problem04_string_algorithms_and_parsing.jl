@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 4 Scaffold for Julia
+# Implementation for Day 86 Problem 4 in Julia
+# Topic: String Algorithms and Parsing
