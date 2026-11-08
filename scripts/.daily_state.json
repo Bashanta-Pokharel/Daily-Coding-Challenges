@@ -1,6 +1,6 @@
 {
-  "current_day": 86,
-  "lang_index": 85,
+  "current_day": 87,
+  "lang_index": 86,
   "history": [
     {
       "date": "2026-08-18",
@@ -1080,6 +1080,19 @@
         "day85_problem03_arrays.lua",
         "day85_problem04_arrays.lua",
         "day85_problem05_arrays.lua"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "day": 86,
+      "language": "julia",
+      "problems_count": 5,
+      "files": [
+        "day86_problem01_string_algorithms_and_parsing.jl",
+        "day86_problem02_string_algorithms_and_parsing.jl",
+        "day86_problem03_string_algorithms_and_parsing.jl",
+        "day86_problem04_string_algorithms_and_parsing.jl",
+        "day86_problem05_string_algorithms_and_parsing.jl"
       ]
     }
   ]
