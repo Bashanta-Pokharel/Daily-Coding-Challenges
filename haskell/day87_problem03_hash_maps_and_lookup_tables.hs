@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 3 Scaffold for Haskell
+-- Implementation for Day 87 Problem 3 in Haskell
+-- Topic: Hash Maps and Lookup Tables
