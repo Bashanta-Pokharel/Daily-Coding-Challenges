@@ -8,3 +8,5 @@
 -- Topic: Hash Maps and Lookup Tables
 
 -- Test harness & execution verification
+
+-- Time Complexity: O(N), Space Complexity: O(1)
