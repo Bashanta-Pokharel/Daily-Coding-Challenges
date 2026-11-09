@@ -1,6 +1,6 @@
 {
-  "current_day": 87,
-  "lang_index": 86,
+  "current_day": 88,
+  "lang_index": 87,
   "history": [
     {
       "date": "2026-08-18",
@@ -1093,6 +1093,19 @@
         "day86_problem03_string_algorithms_and_parsing.jl",
         "day86_problem04_string_algorithms_and_parsing.jl",
         "day86_problem05_string_algorithms_and_parsing.jl"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "day": 87,
+      "language": "haskell",
+      "problems_count": 5,
+      "files": [
+        "day87_problem01_hash_maps_and_lookup_tables.hs",
+        "day87_problem02_hash_maps_and_lookup_tables.hs",
+        "day87_problem03_hash_maps_and_lookup_tables.hs",
+        "day87_problem04_hash_maps_and_lookup_tables.hs",
+        "day87_problem05_hash_maps_and_lookup_tables.hs"
       ]
     }
   ]
