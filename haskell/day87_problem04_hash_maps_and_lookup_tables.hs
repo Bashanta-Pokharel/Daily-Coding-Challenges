@@ -6,3 +6,5 @@
 
 -- Implementation for Day 87 Problem 4 in Haskell
 -- Topic: Hash Maps and Lookup Tables
+
+-- Test harness & execution verification
