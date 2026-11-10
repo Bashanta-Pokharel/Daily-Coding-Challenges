@@ -6,3 +6,5 @@
 
 # Implementation for Day 88 Problem 4 in Elixir
 # Topic: Object-Oriented and Structural Design
+
+# Test harness & execution verification
