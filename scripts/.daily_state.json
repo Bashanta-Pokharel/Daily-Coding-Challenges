@@ -1,6 +1,6 @@
 {
-  "current_day": 88,
-  "lang_index": 87,
+  "current_day": 89,
+  "lang_index": 88,
   "history": [
     {
       "date": "2026-08-18",
@@ -1106,6 +1106,19 @@
         "day87_problem03_hash_maps_and_lookup_tables.hs",
         "day87_problem04_hash_maps_and_lookup_tables.hs",
         "day87_problem05_hash_maps_and_lookup_tables.hs"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "day": 88,
+      "language": "elixir",
+      "problems_count": 5,
+      "files": [
+        "day88_problem01_object-oriented_and_structural_design.ex",
+        "day88_problem02_object-oriented_and_structural_design.ex",
+        "day88_problem03_object-oriented_and_structural_design.ex",
+        "day88_problem04_object-oriented_and_structural_design.ex",
+        "day88_problem05_object-oriented_and_structural_design.ex"
       ]
     }
   ]
