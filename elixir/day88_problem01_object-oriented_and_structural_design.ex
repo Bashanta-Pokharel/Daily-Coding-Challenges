@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 1 Scaffold for Elixir
+# Implementation for Day 88 Problem 1 in Elixir
+# Topic: Object-Oriented and Structural Design
