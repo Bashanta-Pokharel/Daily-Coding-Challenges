@@ -1,6 +1,6 @@
 {
-  "current_day": 89,
-  "lang_index": 88,
+  "current_day": 90,
+  "lang_index": 89,
   "history": [
     {
       "date": "2026-08-18",
@@ -1119,6 +1119,19 @@
         "day88_problem03_object-oriented_and_structural_design.ex",
         "day88_problem04_object-oriented_and_structural_design.ex",
         "day88_problem05_object-oriented_and_structural_design.ex"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "day": 89,
+      "language": "python",
+      "problems_count": 5,
+      "files": [
+        "day89_problem01_recursion_and_divide-and-conquer.py",
+        "day89_problem02_recursion_and_divide-and-conquer.py",
+        "day89_problem03_recursion_and_divide-and-conquer.py",
+        "day89_problem04_recursion_and_divide-and-conquer.py",
+        "day89_problem05_recursion_and_divide-and-conquer.py"
       ]
     }
   ]
