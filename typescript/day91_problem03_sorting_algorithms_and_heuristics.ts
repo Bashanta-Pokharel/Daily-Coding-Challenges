@@ -5,6 +5,7 @@
 // ==============================================================================
 
 function solveProblem3(inputArray) {
-  // Starter declaration for Sorting Algorithms and Heuristics
-  return null;
+  const filtered = inputArray.filter(n => n % 2 === 0).map(n => n * 3);
+  const sum = filtered.reduce((acc, curr) => acc + curr, 0);
+  return { day: 91, problem: 3, items: filtered, total: sum };
 }
