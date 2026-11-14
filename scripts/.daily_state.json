@@ -1,6 +1,6 @@
 {
-  "current_day": 92,
-  "lang_index": 91,
+  "current_day": 93,
+  "lang_index": 92,
   "history": [
     {
       "date": "2026-08-18",
@@ -1158,6 +1158,19 @@
         "day91_problem03_sorting_algorithms_and_heuristics.ts",
         "day91_problem04_sorting_algorithms_and_heuristics.ts",
         "day91_problem05_sorting_algorithms_and_heuristics.ts"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "day": 92,
+      "language": "c",
+      "problems_count": 5,
+      "files": [
+        "day92_problem01_stacks_and_queues_data_structures.c",
+        "day92_problem02_stacks_and_queues_data_structures.c",
+        "day92_problem03_stacks_and_queues_data_structures.c",
+        "day92_problem04_stacks_and_queues_data_structures.c",
+        "day92_problem05_stacks_and_queues_data_structures.c"
       ]
     }
   ]
