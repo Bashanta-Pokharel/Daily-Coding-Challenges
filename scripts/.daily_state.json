@@ -1,6 +1,6 @@
 {
-  "current_day": 93,
-  "lang_index": 92,
+  "current_day": 94,
+  "lang_index": 93,
   "history": [
     {
       "date": "2026-08-18",
@@ -1171,6 +1171,19 @@
         "day92_problem03_stacks_and_queues_data_structures.c",
         "day92_problem04_stacks_and_queues_data_structures.c",
         "day92_problem05_stacks_and_queues_data_structures.c"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "day": 93,
+      "language": "cpp",
+      "problems_count": 5,
+      "files": [
+        "day93_problem01_linked_lists_and_pointer_graphs.cpp",
+        "day93_problem02_linked_lists_and_pointer_graphs.cpp",
+        "day93_problem03_linked_lists_and_pointer_graphs.cpp",
+        "day93_problem04_linked_lists_and_pointer_graphs.cpp",
+        "day93_problem05_linked_lists_and_pointer_graphs.cpp"
       ]
     }
   ]
