@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for C#
+// Implementation for Day 94 Problem 2 in C#
+// Topic: Binary Trees and Tree Traversals
