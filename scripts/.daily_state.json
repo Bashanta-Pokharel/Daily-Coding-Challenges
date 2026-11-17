@@ -1,6 +1,6 @@
 {
-  "current_day": 95,
-  "lang_index": 94,
+  "current_day": 96,
+  "lang_index": 95,
   "history": [
     {
       "date": "2026-08-18",
@@ -1197,6 +1197,19 @@
         "day94_problem03_binary_trees_and_tree_traversals.cs",
         "day94_problem04_binary_trees_and_tree_traversals.cs",
         "day94_problem05_binary_trees_and_tree_traversals.cs"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "day": 95,
+      "language": "java",
+      "problems_count": 5,
+      "files": [
+        "Day95_Problem01_graph_algorithms_bfs_and_dfs.java",
+        "Day95_Problem02_graph_algorithms_bfs_and_dfs.java",
+        "Day95_Problem03_graph_algorithms_bfs_and_dfs.java",
+        "Day95_Problem04_graph_algorithms_bfs_and_dfs.java",
+        "Day95_Problem05_graph_algorithms_bfs_and_dfs.java"
       ]
     }
   ]
