@@ -19,3 +19,5 @@ public class Day95_Problem04_graph_algorithms_bfs_and_dfs {
         System.out.println("Verification passed: " + verified);
     }
 }
+
+// Complexity: O(N) time, O(N) space
