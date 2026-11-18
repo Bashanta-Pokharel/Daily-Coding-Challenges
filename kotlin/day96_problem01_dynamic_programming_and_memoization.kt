@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 1 Scaffold for Kotlin
+// Implementation for Day 96 Problem 1 in Kotlin
+// Topic: Dynamic Programming and Memoization
