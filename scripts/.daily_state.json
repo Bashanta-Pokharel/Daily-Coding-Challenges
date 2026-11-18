@@ -1,6 +1,6 @@
 {
-  "current_day": 96,
-  "lang_index": 95,
+  "current_day": 97,
+  "lang_index": 96,
   "history": [
     {
       "date": "2026-08-18",
@@ -1210,6 +1210,19 @@
         "Day95_Problem03_graph_algorithms_bfs_and_dfs.java",
         "Day95_Problem04_graph_algorithms_bfs_and_dfs.java",
         "Day95_Problem05_graph_algorithms_bfs_and_dfs.java"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "day": 96,
+      "language": "kotlin",
+      "problems_count": 5,
+      "files": [
+        "day96_problem01_dynamic_programming_and_memoization.kt",
+        "day96_problem02_dynamic_programming_and_memoization.kt",
+        "day96_problem03_dynamic_programming_and_memoization.kt",
+        "day96_problem04_dynamic_programming_and_memoization.kt",
+        "day96_problem05_dynamic_programming_and_memoization.kt"
       ]
     }
   ]
