@@ -6,3 +6,5 @@
 
 // Implementation for Day 97 Problem 4 in Swift
 // Topic: Bitwise Manipulation and Masking
+
+// Test harness & execution verification
