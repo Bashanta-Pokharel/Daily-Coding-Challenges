@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 3 Scaffold for Swift
+// Implementation for Day 97 Problem 3 in Swift
+// Topic: Bitwise Manipulation and Masking
