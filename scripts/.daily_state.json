@@ -1,6 +1,6 @@
 {
-  "current_day": 97,
-  "lang_index": 96,
+  "current_day": 98,
+  "lang_index": 97,
   "history": [
     {
       "date": "2026-08-18",
@@ -1223,6 +1223,19 @@
         "day96_problem03_dynamic_programming_and_memoization.kt",
         "day96_problem04_dynamic_programming_and_memoization.kt",
         "day96_problem05_dynamic_programming_and_memoization.kt"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "day": 97,
+      "language": "swift",
+      "problems_count": 5,
+      "files": [
+        "day97_problem01_bitwise_manipulation_and_masking.swift",
+        "day97_problem02_bitwise_manipulation_and_masking.swift",
+        "day97_problem03_bitwise_manipulation_and_masking.swift",
+        "day97_problem04_bitwise_manipulation_and_masking.swift",
+        "day97_problem05_bitwise_manipulation_and_masking.swift"
       ]
     }
   ]
