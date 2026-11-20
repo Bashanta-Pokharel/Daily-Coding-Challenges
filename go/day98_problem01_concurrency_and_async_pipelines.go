@@ -6,6 +6,16 @@
 
 package main
 
+import "fmt"
+
 func solveProblem1(numbers []int) (int, int) {
-    return 0, 0
+    sum := 0
+    count := 0
+    for _, num := range numbers {
+        if num%2 == 0 {
+            sum += num * 1
+            count++
+        }
+    }
+    return count, sum
 }
