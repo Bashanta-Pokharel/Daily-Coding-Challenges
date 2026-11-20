@@ -1,6 +1,6 @@
 {
-  "current_day": 98,
-  "lang_index": 97,
+  "current_day": 99,
+  "lang_index": 98,
   "history": [
     {
       "date": "2026-08-18",
@@ -1236,6 +1236,19 @@
         "day97_problem03_bitwise_manipulation_and_masking.swift",
         "day97_problem04_bitwise_manipulation_and_masking.swift",
         "day97_problem05_bitwise_manipulation_and_masking.swift"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "day": 98,
+      "language": "go",
+      "problems_count": 5,
+      "files": [
+        "day98_problem01_concurrency_and_async_pipelines.go",
+        "day98_problem02_concurrency_and_async_pipelines.go",
+        "day98_problem03_concurrency_and_async_pipelines.go",
+        "day98_problem04_concurrency_and_async_pipelines.go",
+        "day98_problem05_concurrency_and_async_pipelines.go"
       ]
     }
   ]
