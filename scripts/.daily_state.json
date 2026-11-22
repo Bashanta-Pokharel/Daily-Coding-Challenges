@@ -1,6 +1,6 @@
 {
-  "current_day": 100,
-  "lang_index": 99,
+  "current_day": 101,
+  "lang_index": 100,
   "history": [
     {
       "date": "2026-08-18",
@@ -1262,6 +1262,19 @@
         "day99_problem03_file_io_and_data_serialization.rs",
         "day99_problem04_file_io_and_data_serialization.rs",
         "day99_problem05_file_io_and_data_serialization.rs"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "day": 100,
+      "language": "php",
+      "problems_count": 5,
+      "files": [
+        "day100_problem01_error_handling_and_result_enums.php",
+        "day100_problem02_error_handling_and_result_enums.php",
+        "day100_problem03_error_handling_and_result_enums.php",
+        "day100_problem04_error_handling_and_result_enums.php",
+        "day100_problem05_error_handling_and_result_enums.php"
       ]
     }
   ]
