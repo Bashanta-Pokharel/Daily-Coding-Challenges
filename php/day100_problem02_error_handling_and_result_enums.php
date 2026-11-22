@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 2 Scaffold for PHP
+// Implementation for Day 100 Problem 2 in PHP
+// Topic: Error Handling and Result Enums
