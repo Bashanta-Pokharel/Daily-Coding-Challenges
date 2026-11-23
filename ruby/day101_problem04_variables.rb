@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 4 Scaffold for Ruby
+# Implementation for Day 101 Problem 4 in Ruby
+# Topic: Variables, Types and Memory Models
