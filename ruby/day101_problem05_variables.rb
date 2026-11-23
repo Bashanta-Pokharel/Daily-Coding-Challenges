@@ -6,3 +6,5 @@
 
 # Implementation for Day 101 Problem 5 in Ruby
 # Topic: Variables, Types and Memory Models
+
+# Test harness & execution verification
