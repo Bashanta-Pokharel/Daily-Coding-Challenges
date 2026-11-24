@@ -6,3 +6,5 @@
 
 // Implementation for Day 102 Problem 2 in Dart
 // Topic: Conditionals and Pattern Matching
+
+// Test harness & execution verification
