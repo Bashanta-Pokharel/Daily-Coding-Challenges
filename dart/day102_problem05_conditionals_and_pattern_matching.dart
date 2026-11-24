@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 5 Scaffold for Dart
+// Implementation for Day 102 Problem 5 in Dart
+// Topic: Conditionals and Pattern Matching
