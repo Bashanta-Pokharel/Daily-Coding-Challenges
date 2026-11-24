@@ -1,6 +1,6 @@
 {
-  "current_day": 102,
-  "lang_index": 101,
+  "current_day": 103,
+  "lang_index": 102,
   "history": [
     {
       "date": "2026-08-18",
@@ -1288,6 +1288,19 @@
         "day101_problem03_variables.rb",
         "day101_problem04_variables.rb",
         "day101_problem05_variables.rb"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "day": 102,
+      "language": "dart",
+      "problems_count": 5,
+      "files": [
+        "day102_problem01_conditionals_and_pattern_matching.dart",
+        "day102_problem02_conditionals_and_pattern_matching.dart",
+        "day102_problem03_conditionals_and_pattern_matching.dart",
+        "day102_problem04_conditionals_and_pattern_matching.dart",
+        "day102_problem05_conditionals_and_pattern_matching.dart"
       ]
     }
   ]
