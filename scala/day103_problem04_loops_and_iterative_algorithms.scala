@@ -6,3 +6,5 @@
 
 // Implementation for Day 103 Problem 4 in Scala
 // Topic: Loops and Iterative Algorithms
+
+// Test harness & execution verification
