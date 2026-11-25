@@ -4,4 +4,5 @@
 // Daily Coding Practice & Algorithmic Problem Solving
 // ==============================================================================
 
-// Problem 4 Scaffold for Scala
+// Implementation for Day 103 Problem 4 in Scala
+// Topic: Loops and Iterative Algorithms
