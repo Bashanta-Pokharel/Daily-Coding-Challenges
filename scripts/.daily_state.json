@@ -1,6 +1,6 @@
 {
-  "current_day": 103,
-  "lang_index": 102,
+  "current_day": 104,
+  "lang_index": 103,
   "history": [
     {
       "date": "2026-08-18",
@@ -1301,6 +1301,19 @@
         "day102_problem03_conditionals_and_pattern_matching.dart",
         "day102_problem04_conditionals_and_pattern_matching.dart",
         "day102_problem05_conditionals_and_pattern_matching.dart"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "day": 103,
+      "language": "scala",
+      "problems_count": 5,
+      "files": [
+        "day103_problem01_loops_and_iterative_algorithms.scala",
+        "day103_problem02_loops_and_iterative_algorithms.scala",
+        "day103_problem03_loops_and_iterative_algorithms.scala",
+        "day103_problem04_loops_and_iterative_algorithms.scala",
+        "day103_problem05_loops_and_iterative_algorithms.scala"
       ]
     }
   ]
