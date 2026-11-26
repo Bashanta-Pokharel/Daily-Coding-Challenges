@@ -1,6 +1,6 @@
 {
-  "current_day": 104,
-  "lang_index": 103,
+  "current_day": 105,
+  "lang_index": 104,
   "history": [
     {
       "date": "2026-08-18",
@@ -1314,6 +1314,19 @@
         "day103_problem03_loops_and_iterative_algorithms.scala",
         "day103_problem04_loops_and_iterative_algorithms.scala",
         "day103_problem05_loops_and_iterative_algorithms.scala"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "day": 104,
+      "language": "r",
+      "problems_count": 5,
+      "files": [
+        "day104_problem01_functions.r",
+        "day104_problem02_functions.r",
+        "day104_problem03_functions.r",
+        "day104_problem04_functions.r",
+        "day104_problem05_functions.r"
       ]
     }
   ]
