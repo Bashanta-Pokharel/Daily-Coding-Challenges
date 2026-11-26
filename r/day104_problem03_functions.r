@@ -6,3 +6,5 @@
 
 # Implementation for Day 104 Problem 3 in R
 # Topic: Functions, Closures and Lambdas
+
+# Test harness & execution verification
