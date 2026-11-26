@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 2 Scaffold for R
+# Implementation for Day 104 Problem 2 in R
+# Topic: Functions, Closures and Lambdas
