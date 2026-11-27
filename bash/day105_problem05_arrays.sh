@@ -6,3 +6,5 @@
 
 # Implementation for Day 105 Problem 5 in Bash
 # Topic: Arrays, Slices and Dynamic Buffers
+
+# Test harness & execution verification
