@@ -1,6 +1,6 @@
 {
-  "current_day": 105,
-  "lang_index": 104,
+  "current_day": 106,
+  "lang_index": 105,
   "history": [
     {
       "date": "2026-08-18",
@@ -1327,6 +1327,19 @@
         "day104_problem03_functions.r",
         "day104_problem04_functions.r",
         "day104_problem05_functions.r"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "day": 105,
+      "language": "bash",
+      "problems_count": 5,
+      "files": [
+        "day105_problem01_arrays.sh",
+        "day105_problem02_arrays.sh",
+        "day105_problem03_arrays.sh",
+        "day105_problem04_arrays.sh",
+        "day105_problem05_arrays.sh"
       ]
     }
   ]
