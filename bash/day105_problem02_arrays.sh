@@ -4,4 +4,5 @@
 # Daily Coding Practice & Algorithmic Problem Solving
 # ==============================================================================
 
-# Problem 2 Scaffold for Bash
+# Implementation for Day 105 Problem 2 in Bash
+# Topic: Arrays, Slices and Dynamic Buffers
