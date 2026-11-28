@@ -4,4 +4,5 @@
 -- Daily Coding Practice & Algorithmic Problem Solving
 -- ==============================================================================
 
--- Problem 3 Scaffold for SQL
+-- Implementation for Day 106 Problem 3 in SQL
+-- Topic: String Algorithms and Parsing
