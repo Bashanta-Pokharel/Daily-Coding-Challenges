@@ -1,6 +1,6 @@
 {
-  "current_day": 106,
-  "lang_index": 105,
+  "current_day": 107,
+  "lang_index": 106,
   "history": [
     {
       "date": "2026-08-18",
@@ -1340,6 +1340,19 @@
         "day105_problem03_arrays.sh",
         "day105_problem04_arrays.sh",
         "day105_problem05_arrays.sh"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "day": 106,
+      "language": "sql",
+      "problems_count": 5,
+      "files": [
+        "day106_problem01_string_algorithms_and_parsing.sql",
+        "day106_problem02_string_algorithms_and_parsing.sql",
+        "day106_problem03_string_algorithms_and_parsing.sql",
+        "day106_problem04_string_algorithms_and_parsing.sql",
+        "day106_problem05_string_algorithms_and_parsing.sql"
       ]
     }
   ]
